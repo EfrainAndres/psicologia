@@ -471,12 +471,6 @@ function backToFirstQuestionDosC() {
 }
 
 function goToFaseDosA_uno() {
-  var cards = $(".a1");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -711,12 +705,6 @@ function correctFaseDosA_uno() {
 }
 
 function goToFaseDosA_dos() {
-  var cards = $(".a2");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -952,12 +940,6 @@ function correctFaseDosA_dos() {
 }
 
 function goToFaseDosA_tres() {
-  var cards = $(".a3");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -1192,12 +1174,6 @@ function correctFaseDosA_tres() {
 }
 
 function goToFaseDosA_cuatro() {
-  var cards = $(".a4");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -1432,12 +1408,8 @@ function correctFaseDosA_cuatro() {
 }
 
 function goToFaseDosA_cinco() {
-  var cards = $(".a5");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -1672,12 +1644,8 @@ function correctFaseDosA_cinco() {
 }
 
 function goToFaseDosA_seis() {
-  var cards = $(".a6");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -1912,12 +1880,8 @@ function correctFaseDosA_seis() {
 }
 
 function goToFaseDosA_siete() {
-  var cards = $(".a7");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -2152,12 +2116,8 @@ function correctFaseDosA_siete() {
 }
 
 function goToFaseDosA_ocho() {
-  var cards = $(".a8");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -2395,12 +2355,8 @@ function goToFaseDosA_nueve() {
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
-  var cards = $(".a9");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   document.getElementById('incorrectoDivDosA').style.display = 'none';
   document.getElementById('instructivoUno').style.display = 'none';
   document.getElementById('faseDosA_uno').style.display = 'none';
@@ -2632,12 +2588,8 @@ function correctFaseDosA_nueve() {
 }
 
 function goToFaseDosA_diez() {
-  var cards = $(".a10");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -2872,12 +2824,8 @@ function correctFaseDosA_diez() {
 }
 
 function goToFaseDosA_once() {
-  var cards = $(".a11");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3112,12 +3060,8 @@ function correctFaseDosA_once() {
 }
 
 function goToFaseDosA_doce() {
-  var cards = $(".a12");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3468,12 +3412,8 @@ function irGracias() {
 }
 
 function goToFaseDosB_uno() {
-  var cards = $(".b1");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3590,12 +3530,8 @@ function goToFaseDosB_uno() {
 }
 
 function goToFaseDosB_dos() {
-  var cards = $(".b2");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3712,12 +3648,8 @@ function goToFaseDosB_dos() {
 }
 
 function goToFaseDosB_tres() {
-  var cards = $(".b3");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3834,12 +3766,8 @@ function goToFaseDosB_tres() {
 }
 
 function goToFaseDosB_cuatro() {
-  var cards = $(".b4");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -3956,12 +3884,8 @@ function goToFaseDosB_cuatro() {
 }
 
 function goToFaseDosB_cinco() {
-  var cards = $(".b5");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4078,12 +4002,8 @@ function goToFaseDosB_cinco() {
 }
 
 function goToFaseDosB_seis() {
-  var cards = $(".b6");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4200,12 +4120,8 @@ function goToFaseDosB_seis() {
 }
 
 function goToFaseDosB_siete() {
-  var cards = $(".b7");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4322,12 +4238,8 @@ function goToFaseDosB_siete() {
 }
 
 function goToFaseDosB_ocho() {
-  var cards = $(".b8");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4444,12 +4356,8 @@ function goToFaseDosB_ocho() {
 }
 
 function goToFaseDosB_nueve() {
-  var cards = $(".b9");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4566,12 +4474,8 @@ function goToFaseDosB_nueve() {
 }
 
 function goToFaseDosB_diez() {
-  var cards = $(".b10");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4688,12 +4592,8 @@ function goToFaseDosB_diez() {
 }
 
 function goToFaseDosB_once() {
-  var cards = $(".b11");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -4810,12 +4710,8 @@ function goToFaseDosB_once() {
 }
 
 function goToFaseDosB_doce() {
-  var cards = $(".b12");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -5048,12 +4944,8 @@ function goToInstructivoDosC() {
 }
 
 function goToFaseDosC_uno() {
-  var cards = $(".c1");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -5288,12 +5180,8 @@ function correctFaseDosC_uno() {
 }
 
 function goToFaseDosC_dos() {
-  var cards = $(".c2");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -5528,12 +5416,8 @@ function correctFaseDosC_dos() {
 }
 
 function goToFaseDosC_tres() {
-  var cards = $(".c3");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -5768,12 +5652,8 @@ function correctFaseDosC_tres() {
 }
 
 function goToFaseDosC_cuatro() {
-  var cards = $(".c4");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -6008,12 +5888,8 @@ function correctFaseDosC_cuatro() {
 }
 
 function goToFaseDosC_cinco() {
-  var cards = $(".c5");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -6248,12 +6124,8 @@ function correctFaseDosC_cinco() {
 }
 
 function goToFaseDosC_seis() {
-  var cards = $(".c6");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -6488,12 +6360,8 @@ function correctFaseDosC_seis() {
 }
 
 function goToFaseDosC_siete() {
-  var cards = $(".c7");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -6728,12 +6596,8 @@ function correctFaseDosC_siete() {
 }
 
 function goToFaseDosC_ocho() {
-  var cards = $(".c8");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -6968,12 +6832,8 @@ function correctFaseDosC_ocho() {
 }
 
 function goToFaseDosC_nueve() {
-  var cards = $(".c9");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -7208,12 +7068,8 @@ function correctFaseDosC_nueve() {
 }
 
 function goToFaseDosC_diez() {
-  var cards = $(".c10");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -7448,12 +7304,8 @@ function correctFaseDosC_diez() {
 }
 
 function goToFaseDosC_once() {
-  var cards = $(".c11");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -7688,12 +7540,8 @@ function correctFaseDosC_once() {
 }
 
 function goToFaseDosC_doce() {
-  var cards = $(".c12");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -7930,12 +7778,8 @@ function correctFaseDosC_doce() {
 
 
 function goToFaseDosD_uno() {
-  var cards = $(".d1");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8052,12 +7896,8 @@ function goToFaseDosD_uno() {
 }
 
 function goToFaseDosD_dos() {
-  var cards = $(".d2");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8174,12 +8014,8 @@ function goToFaseDosD_dos() {
 }
 
 function goToFaseDosD_tres() {
-  var cards = $(".d3");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8296,12 +8132,8 @@ function goToFaseDosD_tres() {
 }
 
 function goToFaseDosD_cuatro() {
-  var cards = $(".d4");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8418,12 +8250,8 @@ function goToFaseDosD_cuatro() {
 }
 
 function goToFaseDosD_cinco() {
-  var cards = $(".d5");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8540,12 +8368,8 @@ function goToFaseDosD_cinco() {
 }
 
 function goToFaseDosD_seis() {
-  var cards = $(".d6");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8662,12 +8486,8 @@ function goToFaseDosD_seis() {
 }
 
 function goToFaseDosD_siete() {
-  var cards = $(".d7");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8784,12 +8604,8 @@ function goToFaseDosD_siete() {
 }
 
 function goToFaseDosD_ocho() {
-  var cards = $(".d8");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -8906,12 +8722,8 @@ function goToFaseDosD_ocho() {
 }
 
 function goToFaseDosD_nueve() {
-  var cards = $(".d9");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9028,12 +8840,8 @@ function goToFaseDosD_nueve() {
 }
 
 function goToFaseDosD_diez() {
-  var cards = $(".d10");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9150,12 +8958,8 @@ function goToFaseDosD_diez() {
 }
 
 function goToFaseDosD_once() {
-  var cards = $(".d11");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9272,12 +9076,8 @@ function goToFaseDosD_once() {
 }
 
 function goToFaseDosD_doce() {
-  var cards = $(".d12");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9396,12 +9196,8 @@ function goToFaseDosD_doce() {
 
 
 function goToFaseDosE_uno() {
-  var cards = $(".e1");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9518,12 +9314,8 @@ function goToFaseDosE_uno() {
 }
 
 function goToFaseDosE_dos() {
-  var cards = $(".e2");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9643,12 +9435,8 @@ function goToFaseDosE_tres() {
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
-  var cards = $(".e3");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   document.getElementById('incorrectoDivDosA').style.display = 'none';
   document.getElementById('instructivoUno').style.display = 'none';
   document.getElementById('faseDosA_uno').style.display = 'none';
@@ -9762,12 +9550,8 @@ function goToFaseDosE_tres() {
 }
 
 function goToFaseDosE_cuatro() {
-  var cards = $(".e4");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -9884,12 +9668,8 @@ function goToFaseDosE_cuatro() {
 }
 
 function goToFaseDosE_cinco() {
-  var cards = $(".e5");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10006,12 +9786,8 @@ function goToFaseDosE_cinco() {
 }
 
 function goToFaseDosE_seis() {
-  var cards = $(".e6");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10128,12 +9904,8 @@ function goToFaseDosE_seis() {
 }
 
 function goToFaseDosE_siete() {
-  var cards = $(".e7");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10250,12 +10022,8 @@ function goToFaseDosE_siete() {
 }
 
 function goToFaseDosE_ocho() {
-  var cards = $(".e8");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10372,12 +10140,8 @@ function goToFaseDosE_ocho() {
 }
 
 function goToFaseDosE_nueve() {
-  var cards = $(".e9");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10494,12 +10258,8 @@ function goToFaseDosE_nueve() {
 }
 
 function goToFaseDosE_diez() {
-  var cards = $(".e10");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10616,12 +10376,8 @@ function goToFaseDosE_diez() {
 }
 
 function goToFaseDosE_once() {
-  var cards = $(".e11");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10738,12 +10494,8 @@ function goToFaseDosE_once() {
 }
 
 function goToFaseDosE_doce() {
-  var cards = $(".e12");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10860,12 +10612,8 @@ function goToFaseDosE_doce() {
 }
 
 function goToFaseDosE_trece() {
-  var cards = $(".e13");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -10982,12 +10730,8 @@ function goToFaseDosE_trece() {
 }
 
 function goToFaseDosE_catorce() {
-  var cards = $(".e14");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11104,12 +10848,8 @@ function goToFaseDosE_catorce() {
 }
 
 function goToFaseDosE_quince() {
-  var cards = $(".e15");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11226,12 +10966,8 @@ function goToFaseDosE_quince() {
 }
 
 function goToFaseDosE_dieciseis() {
-  var cards = $(".e16");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11348,12 +11084,8 @@ function goToFaseDosE_dieciseis() {
 }
 
 function goToFaseDosE_diecisiete() {
-  var cards = $(".e17");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11470,12 +11202,8 @@ function goToFaseDosE_diecisiete() {
 }
 
 function goToFaseDosE_dieciocho() {
-  var cards = $(".e18");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11592,12 +11320,8 @@ function goToFaseDosE_dieciocho() {
 }
 
 function goToFaseDosE_diecinueve() {
-  var cards = $(".e19");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11714,12 +11438,8 @@ function goToFaseDosE_diecinueve() {
 }
 
 function goToFaseDosE_veinte() {
-  var cards = $(".e20");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11836,12 +11556,8 @@ function goToFaseDosE_veinte() {
 }
 
 function goToFaseDosE_veintiuno() {
-  var cards = $(".e21");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -11958,12 +11674,8 @@ function goToFaseDosE_veintiuno() {
 }
 
 function goToFaseDosE_veintidos() {
-  var cards = $(".e22");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -12080,12 +11792,8 @@ function goToFaseDosE_veintidos() {
 }
 
 function goToFaseDosE_veintitres() {
-  var cards = $(".e23");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
@@ -12202,12 +11910,8 @@ function goToFaseDosE_veintitres() {
 }
 
 function goToFaseDosE_veinticuatro() {
-  var cards = $(".e24");
-  for (var i = 0; i < cards.length; i++) {
-    var target = Math.floor(Math.random() * cards.length - 1) + 1;
-    var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-    cards.eq(target).before(cards.eq(target2));
-  }
+  
+ 
   //Fase 2A
   document.getElementById('instructivoDosB').style.display = 'none';
   document.getElementById('instructivoDosD').style.display = 'none';
