@@ -1,6 +1,7 @@
 //Fase 2A
 document.getElementById('instructivoDosB').style.display = 'none';
 document.getElementById('instructivoDosD').style.display = 'none';
+document.getElementById('instructivoDosE').style.display = 'none';
 document.getElementById('incorrectoDivDosA').style.display = 'none';
 document.getElementById('instructivoUno').style.display = '';
 document.getElementById('faseDosA_uno').style.display = 'none';
