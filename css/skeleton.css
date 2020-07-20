@@ -136,7 +136,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 
@@ -174,13 +174,6 @@ a {
 a:hover {
   color: #0FA0CE; }
 
-.cpruebaDos, .ipruebaDos{
-  font-size: 7rem;
-}
-
-.textAlign .six.columns:nth-child(2n){
-  text-align: right;
-}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -432,22 +425,18 @@ hr {
 }
 
 .ocult, .ocultar{
-  display: none;
+  /*display: none;*/
 }
 
 .opacidad{
   -webkit-animation: fadein 0.5s linear 1 normal forwards;
 }
 
-.opacidadDos{
-  -webkit-animation: fadein 1s linear 1 normal forwards;
-}
-
 
 a, a:hover, a:visited {
   text-decoration: none;
   color: #000;
- /* font-size: 7rem;*/
+  font-size: 7rem;
 }
 
 
