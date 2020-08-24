@@ -36,7 +36,7 @@
         <h3 style="text-align: center;">Instrucciones</h3>
 
         <br>
-        <p style="text-align: center;"><a class="button" id="irPreguntaTresA_uno">Empezar</a></p>
+        <p style="text-align: center;"><a class="button" onclick="irPreguntaTresA_uno()" id="irPreguntaTresA_uno">Empezar</a></p>
       </div>
     </div>
 
@@ -51,15 +51,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresA_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -68,13 +68,14 @@
 
     <div class="row" id="correctoPreguntaTresA_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresA_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresA_dos()" id="irPreguntaTresA_dos">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+    <div class="row" id="incorrectoTresA">
+      <div class="twelve column" style="margin-top: 15%;">
+        <h1 class="text-center"><b><a class="red opacidadDos" id="regresarPreguntaDosA"
+              onclick="irPreguntaTresA_uno()">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -87,16 +88,16 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresA_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
@@ -106,17 +107,9 @@
 
     <div class="row" id="correctoPreguntaTresA_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresA_tres">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresA_tres()" id="irPreguntaTresA_tres">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3A pregunta 3
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -129,15 +122,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresA_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -146,16 +139,9 @@
 
     <div class="row" id="correctoPreguntaTresA_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresA_cuatro">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresA_cuatro()" id="irPreguntaTresA_cuatro">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3A Pregunta 4
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -168,15 +154,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresA_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -186,13 +172,7 @@
 
     <div class="row" id="correctoPreguntaTresA_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresA_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresA_cinco()" id="irPreguntaTresA_cinco">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -207,16 +187,16 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresA_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -226,13 +206,7 @@
 
     <div class="row" id="correctoPreguntaTresA_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresA_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresA_seis()" id="irPreguntaTresA_seis">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -247,19 +221,17 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresB_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
-
-
 
         </div>
       </div>
@@ -267,13 +239,7 @@
 
     <div class="row" id="correctoPreguntaTresA_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_uno()" id="irPreguntaTresB_uno">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -287,15 +253,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -304,13 +270,14 @@
 
     <div class="row" id="correctoPreguntaTresB_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_dos()" id="irPreguntaTresB_dos">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+    <div class="row" id="incorrectoTresB">
+      <div class="twelve column" style="margin-top: 15%;">
+        <h1 class="text-center"><b><a class="red opacidadDos" id="regresarPreguntaDosA"
+          onclick="irPreguntaTresB_uno()">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -323,16 +290,16 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
@@ -342,17 +309,9 @@
 
     <div class="row" id="correctoPreguntaTresB_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_tres">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_tres()" id="irPreguntaTresB_tres">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3B pregunta 3
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -363,15 +322,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -380,16 +339,9 @@
 
     <div class="row" id="correctoPreguntaTresB_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_cuatro">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_cuatro()" id="irPreguntaTresB_cuatro">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3B Pregunta 4
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -403,15 +355,15 @@
         <div class="row opacidad" style="margin-top: 5em;">
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -420,13 +372,7 @@
 
     <div class="row" id="correctoPreguntaTresB_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_cinco()" id="irPreguntaTresB_cinco">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -441,15 +387,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -459,13 +405,7 @@
 
     <div class="row" id="correctoPreguntaTresB_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresB_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" onclick="irPreguntaTresB_seis()" id="irPreguntaTresB_seis">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -480,15 +420,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresB_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresB()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -497,16 +437,9 @@
 
     <div class="row" id="correctoPreguntaTresB_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_uno">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_uno" onclick="irPreguntaTresC_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3C Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -518,30 +451,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -554,36 +475,22 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresC_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3C pregunta 3
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -596,33 +503,20 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresC_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3C Pregunta 4
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -635,31 +529,19 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -674,32 +556,20 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -714,33 +584,19 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irPreguntaTresC2_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
-
-
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -753,30 +609,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresC2_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC2_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -789,36 +633,22 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresC2_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresC2_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3C_2 pregunta 3
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -829,33 +659,20 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresC2_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresC2_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3C_2 Pregunta 4
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -869,30 +686,18 @@
         <div class="row opacidad" style="margin-top: 5em;">
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresC2_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC2_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -907,31 +712,19 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresC2_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC2_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresC2_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -946,30 +739,18 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresD_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresC2_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -982,15 +763,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -999,13 +780,13 @@
 
     <div class="row" id="correctoPreguntaTresD_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_dos" onclick="irPreguntaTresD_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresD">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresD_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1018,15 +799,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1035,13 +816,7 @@
 
     <div class="row" id="correctoPreguntaTresD_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_tres" onclick="irPreguntaTresD_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1054,15 +829,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1071,13 +846,7 @@
 
     <div class="row" id="correctoPreguntaTresD_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_cuatro" onclick="irPreguntaTresD_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1090,15 +859,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -1107,13 +876,7 @@
 
     <div class="row" id="correctoPreguntaTresD_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_cinco" onclick="irPreguntaTresD_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
     <!--Fase 3D Pregunta 5
@@ -1125,15 +888,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -1142,15 +905,10 @@
 
     <div class="row" id="correctoPreguntaTresD_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_seis">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresD_seis" onclick="irPreguntaTresD_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3D Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresD_seis">
@@ -1160,15 +918,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresD_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1177,13 +935,7 @@
 
     <div class="row" id="correctoPreguntaTresD_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_uno" onclick="irPreguntaTresE_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1196,15 +948,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1213,13 +965,13 @@
 
     <div class="row" id="correctoPreguntaTresE_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_dos" onclick="irPreguntaTresE_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresE">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresE_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1232,15 +984,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1249,13 +1001,7 @@
 
     <div class="row" id="correctoPreguntaTresE_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_tres" onclick="irPreguntaTresE_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1268,15 +1014,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1285,13 +1031,7 @@
 
     <div class="row" id="correctoPreguntaTresE_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_cuatro" onclick="irPreguntaTresE_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1304,15 +1044,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -1321,15 +1061,10 @@
 
     <div class="row" id="correctoPreguntaTresE_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_cinco">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_cinco" onclick="irPreguntaTresE_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3E Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresE_cinco">
@@ -1339,15 +1074,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -1356,15 +1091,10 @@
 
     <div class="row" id="correctoPreguntaTresE_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_seis">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresE_seis" onclick="irPreguntaTresE_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3E Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresE_seis">
@@ -1374,15 +1104,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresE_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresE()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1391,16 +1121,9 @@
 
     <div class="row" id="correctoPreguntaTresE_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_uno">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_uno" onclick="irPreguntaTresF_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3F Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -1411,30 +1134,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1447,30 +1158,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1483,30 +1182,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1519,32 +1206,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresF_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3F Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresF_cinco">
@@ -1554,32 +1230,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresF_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3F Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresF_seis">
@@ -1589,30 +1254,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresF2_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF2_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1625,30 +1278,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresF2_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF2_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1661,30 +1302,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresF2_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF2_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1697,30 +1326,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresF2_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresF2_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1733,32 +1350,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresF2_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresF2_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3F_2 Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresF2_cinco">
@@ -1768,32 +1374,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresF2_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresF2_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresF_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3F_2 Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresF2_seis">
@@ -1803,33 +1398,20 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresD()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresF2_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3G Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -1841,15 +1423,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1858,13 +1440,13 @@
 
     <div class="row" id="correctoPreguntaTresG_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_dos" onclick="irPreguntaTresG_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresG1">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresA_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1877,16 +1459,16 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
@@ -1896,17 +1478,9 @@
 
     <div class="row" id="correctoPreguntaTresG_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_tres">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_tres" onclick="irPreguntaTresG_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3G pregunta 3
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -1919,15 +1493,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -1936,16 +1510,9 @@
 
     <div class="row" id="correctoPreguntaTresG_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_cuatro">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_cuatro" onclick="irPreguntaTresG_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3G Pregunta 4
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -1958,15 +1525,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -1976,13 +1543,7 @@
 
     <div class="row" id="correctoPreguntaTresG_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_cinco" onclick="irPreguntaTresG_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -1997,16 +1558,16 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -2016,13 +1577,7 @@
 
     <div class="row" id="correctoPreguntaTresG_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG_seis" onclick="irPreguntaTresG_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2037,36 +1592,26 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+            <a onclick="irCorrectoPreguntaTresG_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
-
-
-
         </div>
       </div>
     </div>
 
     <div class="row" id="correctoPreguntaTresG_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_uno">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_uno" onclick="irPreguntaTresG2_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3G_2 Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -2077,15 +1622,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2094,13 +1639,13 @@
 
     <div class="row" id="correctoPreguntaTresG2_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_dos" onclick="irPreguntaTresG2_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresG2">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresA_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2113,16 +1658,16 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
@@ -2132,17 +1677,9 @@
 
     <div class="row" id="correctoPreguntaTresG2_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_tres">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_tres" onclick="irPreguntaTresG2_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3G_2 pregunta 3
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -2153,15 +1690,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2170,16 +1707,9 @@
 
     <div class="row" id="correctoPreguntaTresG2_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_cuatro">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_cuatro" onclick="irPreguntaTresG2_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3G_2 Pregunta 4
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -2193,15 +1723,15 @@
         <div class="row opacidad" style="margin-top: 5em;">
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -2210,13 +1740,7 @@
 
     <div class="row" id="correctoPreguntaTresG2_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_cinco" onclick="irPreguntaTresG2_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2231,15 +1755,15 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
@@ -2249,13 +1773,7 @@
 
     <div class="row" id="correctoPreguntaTresG2_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG2_seis" onclick="irPreguntaTresG2_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2266,19 +1784,17 @@
         <p style="text-align: center;">
           <img src="images/fase3_x2.png" alt="Fase Tres Imagen 1">
         </p>
-
-
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irCorrectoPreguntaTresG2_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2287,13 +1803,7 @@
 
     <div class="row" id="correctoPreguntaTresG2_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_uno" onclick="irPreguntaTresG3_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2306,15 +1816,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2323,13 +1833,13 @@
 
     <div class="row" id="correctoPreguntaTresG3_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_dos" onclick="irPreguntaTresG3_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresG3">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresA_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2342,15 +1852,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2359,13 +1869,7 @@
 
     <div class="row" id="correctoPreguntaTresG3_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_tres" onclick="irPreguntaTresG3_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2378,15 +1882,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2395,13 +1899,7 @@
 
     <div class="row" id="correctoPreguntaTresG3_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_cuatro" onclick="irPreguntaTresG3_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2414,15 +1912,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -2431,15 +1929,10 @@
 
     <div class="row" id="correctoPreguntaTresG3_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_cinco">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_cinco" onclick="irPreguntaTresG3_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3G_3 Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresG3_cinco">
@@ -2449,15 +1942,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -2466,15 +1959,10 @@
 
     <div class="row" id="correctoPreguntaTresG3_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_seis">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG3_seis" onclick="irPreguntaTresG3_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3G_3 Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresG3_seis">
@@ -2484,15 +1972,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irCorrectoPreguntaTresG3_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2501,13 +1989,7 @@
 
     <div class="row" id="correctoPreguntaTresG3_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_uno" onclick="irPreguntaTresG4_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2520,15 +2002,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2537,13 +2019,13 @@
 
     <div class="row" id="correctoPreguntaTresG4_uno">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_dos">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_dos" onclick="irPreguntaTresG4_dos()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
+    <div class="row" id="incorrectoTresG4">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 onclick="irPreguntaTresA_uno()" class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2556,15 +2038,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2573,13 +2055,7 @@
 
     <div class="row" id="correctoPreguntaTresG4_dos">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_tres" onclick="irPreguntaTresG4_tres()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2592,15 +2068,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2609,13 +2085,7 @@
 
     <div class="row" id="correctoPreguntaTresG4_tres">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_cuatro" onclick="irPreguntaTresG4_cuatro()">CORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -2628,15 +2098,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -2645,15 +2115,10 @@
 
     <div class="row" id="correctoPreguntaTresG4_cuatro">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_cinco">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_cinco" onclick="irPreguntaTresG4_cinco()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3G_4 Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresG4_cinco">
@@ -2663,15 +2128,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
@@ -2680,15 +2145,10 @@
 
     <div class="row" id="correctoPreguntaTresG4_cinco">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_seis">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresG4_seis" onclick="irPreguntaTresG4_seis()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3G_4 Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresG4_seis">
@@ -2698,15 +2158,15 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irCorrectoPreguntaTresG4_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
@@ -2715,253 +2175,169 @@
 
     <div class="row" id="correctoPreguntaTresG4_seis">
       <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_uno">CORRECTO</a></b></h1>
+        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_uno" onclick="irPreguntaTresH_uno()">CORRECTO</a></b></h1>
       </div>
     </div>
 
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-  <!--Fase 3H Pregunta 1
+    <!--Fase 3H Pregunta 1
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="row" id="preguntaTresH_uno">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
+    <div class="row" id="preguntaTresH_uno">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_uno">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_dos">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <!--Fase 3H pregunta 2
+    <!--Fase 3H pregunta 2
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row" id="preguntaTresH_dos">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
+    <div class="row" id="preguntaTresH_dos">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
 
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
 
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_dos">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_tres">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-
-
-  <!--Fase 3H pregunta 3
+    <!--Fase 3H pregunta 3
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row" id="preguntaTresH_tres">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
+    <div class="row" id="preguntaTresH_tres">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
 
 
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_tres">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_cuatro">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-
-  <!--Fase 3H Pregunta 4
+    <!--Fase 3H Pregunta 4
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row" id="preguntaTresH_cuatro">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
+    <div class="row" id="preguntaTresH_cuatro">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
 
 
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
 
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_cuatro">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_cinco">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <!--Fase 3H Pregunta 5
+    <!--Fase 3H Pregunta 5
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row" id="preguntaTresH_cinco">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
+    <div class="row" id="preguntaTresH_cinco">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
 
 
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
+
         </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
-
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_cinco">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH_seis">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <!--Fase 3H Pregunta 6
+    <!--Fase 3H Pregunta 6
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row" id="preguntaTresH_seis">
-    <div class="twelve column" style="margin-top: 10%">
-      <p style="text-align: center;">
-        <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
-      </p>
+    <div class="row" id="preguntaTresH_seis">
+      <div class="twelve column" style="margin-top: 10%">
+        <p style="text-align: center;">
+          <img src="images/fase3_x1.png" alt="Fase Tres Imagen 1">
+        </p>
 
 
-      <div class="row opacidad" style="margin-top: 5em;">
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
-              alt="Fase Tres Imagen 2"></a>
+        <div class="row opacidad" style="margin-top: 5em;">
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irPreguntaTresH2_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
+                alt="Fase Tres Imagen 3"></a>
+          </div>
+          <div class="four columns text-center a1">
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
+                alt="Fase Tres Imagen 2"></a>
+          </div>
         </div>
-        <div class="four columns text-center a1">
-          <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y1.png"
-              alt="Fase Tres Imagen 3"></a>
-        </div>
-        <div class="four columns text-center a1">
-          <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y2.png"
-              alt="Fase Tres Imagen 2"></a>
-        </div>
-
-
-
       </div>
     </div>
-  </div>
 
-  <div class="row" id="correctoPreguntaTresH_seis">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_uno">CORRECTO</a></b></h1>
-    </div>
-  </div>
-
-  <div class="row" id="incorrectoDiv">
-    <div class="twelve column" style="margin-top: 25%;">
-      <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-    </div>
-  </div>
-
-<!--Fase 3H2 Pregunta 1
+    <!--Fase 3H2 Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresH2_uno">
       <div class="twelve column" style="margin-top: 10%">
@@ -2970,30 +2346,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH2_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH2_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3006,36 +2370,22 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH2_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
 
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresH2_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
 
     <!--Fase 3H2 pregunta 3
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -3046,33 +2396,20 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH2_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresH2_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3H2 Pregunta 4
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -3086,30 +2423,18 @@
         <div class="row opacidad" style="margin-top: 5em;">
 
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH2_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH2_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3124,31 +2449,19 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH2_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH2_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH2_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3163,30 +2476,18 @@
 
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
+            <a onclick="irPreguntaTresH3_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Y2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Y3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH2_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3199,30 +2500,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH3_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH3_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3235,30 +2524,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH3_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH3_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3271,30 +2548,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH3_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH3_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3307,32 +2572,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH3_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresH3_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3H3 Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresH3_cinco">
@@ -3342,32 +2596,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH3_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresH3_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH3_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3H3 Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresH3_seis">
@@ -3377,33 +2620,20 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
+            <a onclick="irPreguntaTresH4_uno()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="correctoPreguntaTresH3_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_uno">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
 
     <!--Fase 3H4 Pregunta 1
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -3414,30 +2644,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresH4_dos()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH4_uno">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_dos">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3450,30 +2668,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresH4_tres()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH4_dos">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_tres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3486,30 +2692,18 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresH4_cuatro()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row" id="correctoPreguntaTresH4_tres">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_cuatro">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
       </div>
     </div>
 
@@ -3522,32 +2716,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresH4_cinco()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresH4_cuatro">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_cinco">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3H4 Pregunta 5
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresH4_cinco">
@@ -3557,32 +2740,21 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irPreguntaTresH4_seis()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresH4_cinco">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="irPreguntaTresH4_seis">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
     <!--Fase 3H4 Pregunta 6
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row" id="preguntaTresH4_seis">
@@ -3592,38 +2764,22 @@
         </p>
         <div class="row opacidad" style="margin-top: 5em;">
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z2.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
+            <a onclick="irGracias()" id="correct" alt="opciones pregunta 1" class="correct"><img src="images/fase3_Z1.png"
                 alt="Fase Tres Imagen 3"></a>
           </div>
           <div class="four columns text-center a1">
-            <a id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
+            <a onclick="irIncorrectoTresA()" id="incorrect" alt="opciones pregunta 1" class="incorrect"><img src="images/fase3_Z3.png"
                 alt="Fase Tres Imagen 2"></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="correctoPreguntaTresH4_seis">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="green opacidadDos" id="FinalTres">CORRECTO</a></b></h1>
-      </div>
-    </div>
-
-    <div class="row" id="incorrectoDiv">
-      <div class="twelve column" style="margin-top: 25%;">
-        <h1 class="text-center"><b><a class="red opacidadDos" id="instructivoTres">INCORRECTO</a></b></h1>
-      </div>
-    </div>
-
-
-
-
-
-  <!-- 
+    <!-- 
     Gracias
   -->
     <div class="row" id="gracias">
@@ -3641,6 +2797,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/faseTres/logic.js"></script>
+<script src="js/faseTres/faseTres.js"></script>
 
 
 </html>
