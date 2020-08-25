@@ -1,3 +1,8 @@
+//Anuncios
+document.getElementById('anuncio1').style.display = 'none';
+document.getElementById('anuncio2').style.display = 'none';
+document.getElementById('anuncio3').style.display = 'none';
+
 //Incorrectos
 document.getElementById('incorrectoTresA').style.display = 'none';
 document.getElementById('incorrectoTresB').style.display = 'none';
