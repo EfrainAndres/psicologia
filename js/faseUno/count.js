@@ -1,12 +1,15 @@
 $('.incorrectC').on('click', function () {
-    var count = parseInt($(this).data('click')) || 0;
-    count = count + 1;
-    $('.incorrectC').each(function () {
-      $(this).data('click', count);
+  var count = parseInt($(this).data('click')) || 0;
+  count = count + 1;
+  $('.incorrectC').each(function () {
+    $(this).data('click', count);
 
-      console.log(count);
+    console.log(count);
 
-      if (count == 2) {
+    var correct = document.getElementById('irCorrectoPreguntaSeisC');
+    var incorrect = document.getElementById('incorrectoSeisC');
+    $('#irCorrectoPreguntaSeisC').click(function () {
+      if (count >= 2) {
         count = 0;
         //Fase 1A
         document.getElementById('incorrectoDiv').style.display = 'none';
@@ -25,7 +28,7 @@ $('.incorrectC').on('click', function () {
         document.getElementById('correctoPreguntaCinco').style.display = 'none';
         document.getElementById('preguntaSeis').style.display = 'none';
         document.getElementById('correctoPreguntaSeis').style.display = 'none';
-
+  
         //Fase 1B
         document.getElementById('preguntaUnoB').style.display = 'none';
         document.getElementById('correctoPreguntaUnoB').style.display = 'none';
@@ -39,10 +42,10 @@ $('.incorrectC').on('click', function () {
         document.getElementById('correctoPreguntaCincoB').style.display = 'none';
         document.getElementById('preguntaSeisB').style.display = 'none';
         document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-
+  
         //Anuncio
         document.getElementById('anuncio').style.display = 'none';
-
+  
         //Fase 1C
         document.getElementById('preguntaUnoC').style.display = 'none';
         document.getElementById('preguntaDosC').style.display = 'none';
@@ -50,7 +53,7 @@ $('.incorrectC').on('click', function () {
         document.getElementById('preguntaCuatroC').style.display = 'none';
         document.getElementById('preguntaCincoC').style.display = 'none';
         document.getElementById('preguntaSeisC').style.display = 'none';
-
+  
         //Fase 1CD
         document.getElementById('preguntaUnoCD').style.display = 'none';
         document.getElementById('preguntaDosCD').style.display = 'none';
@@ -65,7 +68,7 @@ $('.incorrectC').on('click', function () {
         document.getElementById('preguntaCuatroD').style.display = 'none';
         document.getElementById('preguntaCincoD').style.display = 'none';
         document.getElementById('preguntaSeisD').style.display = 'none';
-
+  
         //Fase 1DD
         document.getElementById('preguntaUnoDD').style.display = 'none';
         document.getElementById('preguntaDosDD').style.display = 'none';
@@ -76,7 +79,7 @@ $('.incorrectC').on('click', function () {
         //Gracias
         document.getElementById('gracias').style.display = 'none';
       }
-
     });
-
   });
+
+});
