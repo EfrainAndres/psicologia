@@ -1,126 +1,813 @@
-$('.incorrectCount').on('click', function () {
+$('.correctA').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
-  $('.incorrectCount').each(function () {
+  $('.correctA').each(function () {
     $(this).data('click', count);
 
     console.log(count);
 
-    if (count == 5) {
+    if (count == 2) {
       count = 0;
-      //Fase 2A
-      document.getElementById('incorrectoDivDosA').style.display = 'none';
-      document.getElementById('instructivoUno').style.display = '';
-      document.getElementById('faseDosA_uno').style.display = 'none';
-      document.getElementById('correctoDosA_uno').style.display = 'none';
-      document.getElementById('faseDosA_dos').style.display = 'none';
-      document.getElementById('correctoDosA_dos').style.display = 'none';
-      document.getElementById('faseDosA_tres').style.display = 'none';
-      document.getElementById('correctoDosA_tres').style.display = 'none';
-      document.getElementById('faseDosA_cuatro').style.display = 'none';
-      document.getElementById('correctoDosA_cuatro').style.display = 'none';
-      document.getElementById('faseDosA_cinco').style.display = 'none';
-      document.getElementById('correctoDosA_cinco').style.display = 'none';
-      document.getElementById('faseDosA_seis').style.display = 'none';
-      document.getElementById('correctoDosA_seis').style.display = 'none';
-      document.getElementById('faseDosA_siete').style.display = 'none';
-      document.getElementById('correctoDosA_siete').style.display = 'none';
-      document.getElementById('faseDosA_ocho').style.display = 'none';
-      document.getElementById('correctoDosA_ocho').style.display = 'none';
-      document.getElementById('faseDosA_nueve').style.display = 'none';
-      document.getElementById('correctoDosA_nueve').style.display = 'none';
-      document.getElementById('faseDosA_diez').style.display = 'none';
-      document.getElementById('correctoDosA_diez').style.display = 'none';
-      document.getElementById('faseDosA_once').style.display = 'none';
-      document.getElementById('correctoDosA_once').style.display = 'none';
-      document.getElementById('faseDosA_doce').style.display = 'none';
-      document.getElementById('correctoDosA_doce').style.display = 'none';
+      //Anuncios
+      document.getElementById('anuncio1').style.display = 'none';
+      document.getElementById('anuncio2').style.display = 'none';
+      document.getElementById('anuncio3').style.display = 'none';
 
-      //Fase 2B
-      document.getElementById('faseDosB_uno').style.display = 'none';
-      document.getElementById('faseDosB_dos').style.display = 'none';
-      document.getElementById('faseDosB_tres').style.display = 'none';
-      document.getElementById('faseDosB_cuatro').style.display = 'none';
-      document.getElementById('faseDosB_cinco').style.display = 'none';
-      document.getElementById('faseDosB_seis').style.display = 'none';
-      document.getElementById('faseDosB_siete').style.display = 'none';
-      document.getElementById('faseDosB_ocho').style.display = 'none';
-      document.getElementById('faseDosB_nueve').style.display = 'none';
-      document.getElementById('faseDosB_diez').style.display = 'none';
-      document.getElementById('faseDosB_once').style.display = 'none';
-      document.getElementById('faseDosB_doce').style.display = 'none';
+      //Incorrectos
 
-      //Fase 2C
-      document.getElementById('incorrectoDivDosC').style.display = 'none';
-      document.getElementById('instructivoDosC').style.display = 'none';
-      document.getElementById('faseDosC_uno').style.display = 'none';
-      document.getElementById('correctoDosC_uno').style.display = 'none';
-      document.getElementById('faseDosC_dos').style.display = 'none';
-      document.getElementById('correctoDosC_dos').style.display = 'none';
-      document.getElementById('faseDosC_tres').style.display = 'none';
-      document.getElementById('correctoDosC_tres').style.display = 'none';
-      document.getElementById('faseDosC_cuatro').style.display = 'none';
-      document.getElementById('correctoDosC_cuatro').style.display = 'none';
-      document.getElementById('faseDosC_cinco').style.display = 'none';
-      document.getElementById('correctoDosC_cinco').style.display = 'none';
-      document.getElementById('faseDosC_seis').style.display = 'none';
-      document.getElementById('correctoDosC_seis').style.display = 'none';
-      document.getElementById('faseDosC_siete').style.display = 'none';
-      document.getElementById('correctoDosC_siete').style.display = 'none';
-      document.getElementById('faseDosC_ocho').style.display = 'none';
-      document.getElementById('correctoDosC_ocho').style.display = 'none';
-      document.getElementById('faseDosC_nueve').style.display = 'none';
-      document.getElementById('correctoDosC_nueve').style.display = 'none';
-      document.getElementById('faseDosC_diez').style.display = 'none';
-      document.getElementById('correctoDosC_diez').style.display = 'none';
-      document.getElementById('faseDosC_once').style.display = 'none';
-      document.getElementById('correctoDosC_once').style.display = 'none';
-      document.getElementById('faseDosC_doce').style.display = 'none';
-      document.getElementById('correctoDosC_doce').style.display = 'none';
+      document.getElementById('incorrectoTresA').style.display = 'none';
+      document.getElementById('incorrectoTresB').style.display = 'none';
+      document.getElementById('incorrectoTresD').style.display = 'none';
+      document.getElementById('incorrectoTresE').style.display = 'none';
+      document.getElementById('incorrectoTresG1').style.display = 'none';
+      document.getElementById('incorrectoTresG2').style.display = 'none';
+      document.getElementById('incorrectoTresG3').style.display = 'none';
+      document.getElementById('incorrectoTresG4').style.display = 'none';
 
-      //Fase 2D
-      document.getElementById('faseDosD_uno').style.display = 'none';
-      document.getElementById('faseDosD_dos').style.display = 'none';
-      document.getElementById('faseDosD_tres').style.display = 'none';
-      document.getElementById('faseDosD_cuatro').style.display = 'none';
-      document.getElementById('faseDosD_cinco').style.display = 'none';
-      document.getElementById('faseDosD_seis').style.display = 'none';
-      document.getElementById('faseDosD_siete').style.display = 'none';
-      document.getElementById('faseDosD_ocho').style.display = 'none';
-      document.getElementById('faseDosD_nueve').style.display = 'none';
-      document.getElementById('faseDosD_diez').style.display = 'none';
-      document.getElementById('faseDosD_once').style.display = 'none';
-      document.getElementById('faseDosD_doce').style.display = 'none';
+      //Fase 3A
+      document.getElementById('instructivoTres').style.display = 'none';
+      document.getElementById('preguntaTresA_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_uno').style.display = 'none';
+      document.getElementById('preguntaTresA_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_dos').style.display = 'none';
+      document.getElementById('preguntaTresA_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_tres').style.display = 'none';
+      document.getElementById('preguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresA_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cinco').style.display = 'none';
+      document.getElementById('preguntaTresA_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_seis').style.display = '';
 
-      //Fase 2E
-      document.getElementById('faseDosE_uno').style.display = 'none';
-      document.getElementById('faseDosE_dos').style.display = 'none';
-      document.getElementById('faseDosE_tres').style.display = 'none';
-      document.getElementById('faseDosE_cuatro').style.display = 'none';
-      document.getElementById('faseDosE_cinco').style.display = 'none';
-      document.getElementById('faseDosE_seis').style.display = 'none';
-      document.getElementById('faseDosE_siete').style.display = 'none';
-      document.getElementById('faseDosE_ocho').style.display = 'none';
-      document.getElementById('faseDosE_nueve').style.display = 'none';
-      document.getElementById('faseDosE_diez').style.display = 'none';
-      document.getElementById('faseDosE_once').style.display = 'none';
-      document.getElementById('faseDosE_doce').style.display = 'none';
-      document.getElementById('faseDosE_trece').style.display = 'none';
-      document.getElementById('faseDosE_catorce').style.display = 'none';
-      document.getElementById('faseDosE_quince').style.display = 'none';
-      document.getElementById('faseDosE_dieciseis').style.display = 'none';
-      document.getElementById('faseDosE_diecisiete').style.display = 'none';
-      document.getElementById('faseDosE_dieciocho').style.display = 'none';
-      document.getElementById('faseDosE_diecinueve').style.display = 'none';
-      document.getElementById('faseDosE_veinte').style.display = 'none';
-      document.getElementById('faseDosE_veintiuno').style.display = 'none';
-      document.getElementById('faseDosE_veintidos').style.display = 'none';
-      document.getElementById('faseDosE_veintitres').style.display = 'none';
-      document.getElementById('faseDosE_veinticuatro').style.display = 'none';
+      //Fase 3B
+      document.getElementById('preguntaTresB_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_uno').style.display = 'none';
+      document.getElementById('preguntaTresB_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_dos').style.display = 'none';
+      document.getElementById('preguntaTresB_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_tres').style.display = 'none';
+      document.getElementById('preguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresB_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cinco').style.display = 'none';
+      document.getElementById('preguntaTresB_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_seis').style.display = 'none';
 
+      //Fase 3C1
+      document.getElementById('preguntaTresC_uno').style.display = 'none';
+      document.getElementById('preguntaTresC_dos').style.display = 'none';
+      document.getElementById('preguntaTresC_tres').style.display = 'none';
+      document.getElementById('preguntaTresC_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC_seis').style.display = 'none';
+      //Fase 3C2
+      document.getElementById('preguntaTresC2_uno').style.display = 'none';
+      document.getElementById('preguntaTresC2_dos').style.display = 'none';
+      document.getElementById('preguntaTresC2_tres').style.display = 'none';
+      document.getElementById('preguntaTresC2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC2_seis').style.display = 'none';
 
+      //Fase 3D
+      document.getElementById('preguntaTresD_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_uno').style.display = 'none';
+      document.getElementById('preguntaTresD_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_dos').style.display = 'none';
+      document.getElementById('preguntaTresD_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_tres').style.display = 'none';
+      document.getElementById('preguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresD_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cinco').style.display = 'none';
+      document.getElementById('preguntaTresD_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_seis').style.display = 'none';
+
+      //Fase 3E
+      document.getElementById('preguntaTresE_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_uno').style.display = 'none';
+      document.getElementById('preguntaTresE_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_dos').style.display = 'none';
+      document.getElementById('preguntaTresE_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_tres').style.display = 'none';
+      document.getElementById('preguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresE_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cinco').style.display = 'none';
+      document.getElementById('preguntaTresE_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_seis').style.display = 'none';
+
+      //Fase 3F1
+      document.getElementById('preguntaTresF_uno').style.display = 'none';
+      document.getElementById('preguntaTresF_dos').style.display = 'none';
+      document.getElementById('preguntaTresF_tres').style.display = 'none';
+      document.getElementById('preguntaTresF_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF_seis').style.display = 'none';
+      //Fase 3F2
+      document.getElementById('preguntaTresF2_uno').style.display = 'none';
+      document.getElementById('preguntaTresF2_dos').style.display = 'none';
+      document.getElementById('preguntaTresF2_tres').style.display = 'none';
+      document.getElementById('preguntaTresF2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF2_seis').style.display = 'none';
+
+      //Fase 3G1
+      document.getElementById('preguntaTresG_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_uno').style.display = 'none';
+      document.getElementById('preguntaTresG_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_dos').style.display = 'none';
+      document.getElementById('preguntaTresG_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_tres').style.display = 'none';
+      document.getElementById('preguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_seis').style.display = 'none';
+      //Fase 3G2
+      document.getElementById('preguntaTresG2_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_uno').style.display = 'none';
+      document.getElementById('preguntaTresG2_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_dos').style.display = 'none';
+      document.getElementById('preguntaTresG2_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_tres').style.display = 'none';
+      document.getElementById('preguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG2_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_seis').style.display = 'none';
+      //Fase 3G3
+      document.getElementById('preguntaTresG3_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_uno').style.display = 'none';
+      document.getElementById('preguntaTresG3_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_dos').style.display = 'none';
+      document.getElementById('preguntaTresG3_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_tres').style.display = 'none';
+      document.getElementById('preguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG3_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_seis').style.display = 'none';
+      //Fase 3G4
+      document.getElementById('preguntaTresG4_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_uno').style.display = 'none';
+      document.getElementById('preguntaTresG4_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_dos').style.display = 'none';
+      document.getElementById('preguntaTresG4_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_tres').style.display = 'none';
+      document.getElementById('preguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG4_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_seis').style.display = 'none';
+
+      //Fase 3H1
+      document.getElementById('preguntaTresH_uno').style.display = 'none';
+      document.getElementById('preguntaTresH_dos').style.display = 'none';
+      document.getElementById('preguntaTresH_tres').style.display = 'none';
+      document.getElementById('preguntaTresH_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH_seis').style.display = 'none';
+      //Fase 3H2
+      document.getElementById('preguntaTresH2_uno').style.display = 'none';
+      document.getElementById('preguntaTresH2_dos').style.display = 'none';
+      document.getElementById('preguntaTresH2_tres').style.display = 'none';
+      document.getElementById('preguntaTresH2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH2_seis').style.display = 'none';
+      //Fase 3H3
+      document.getElementById('preguntaTresH3_uno').style.display = 'none';
+      document.getElementById('preguntaTresH3_dos').style.display = 'none';
+      document.getElementById('preguntaTresH3_tres').style.display = 'none';
+      document.getElementById('preguntaTresH3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH3_seis').style.display = 'none';
+      //Fase 3H4
+      document.getElementById('preguntaTresH4_uno').style.display = 'none';
+      document.getElementById('preguntaTresH4_dos').style.display = 'none';
+      document.getElementById('preguntaTresH4_tres').style.display = 'none';
+      document.getElementById('preguntaTresH4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH4_seis').style.display = 'none';
       //Gracias
       document.getElementById('gracias').style.display = 'none';
+
+      setTimeout(function () { document.getElementById('irPreguntaTresB_uno').click(); }, 3000);
+    }
+
+  });
+
+});
+
+$('.correctB').on('click', function () {
+  var count = parseInt($(this).data('click')) || 0;
+  count = count + 1;
+  $('.correctB').each(function () {
+    $(this).data('click', count);
+
+    console.log(count);
+
+    if (count == 2) {
+      count = 0;
+      //Anuncios
+      document.getElementById('anuncio1').style.display = 'none';
+      document.getElementById('anuncio2').style.display = 'none';
+      document.getElementById('anuncio3').style.display = 'none';
+
+      //Incorrectos
+
+      document.getElementById('incorrectoTresA').style.display = 'none';
+      document.getElementById('incorrectoTresB').style.display = 'none';
+      document.getElementById('incorrectoTresD').style.display = 'none';
+      document.getElementById('incorrectoTresE').style.display = 'none';
+      document.getElementById('incorrectoTresG1').style.display = 'none';
+      document.getElementById('incorrectoTresG2').style.display = 'none';
+      document.getElementById('incorrectoTresG3').style.display = 'none';
+      document.getElementById('incorrectoTresG4').style.display = 'none';
+
+      //Fase 3A
+      document.getElementById('instructivoTres').style.display = 'none';
+      document.getElementById('preguntaTresA_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_uno').style.display = 'none';
+      document.getElementById('preguntaTresA_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_dos').style.display = 'none';
+      document.getElementById('preguntaTresA_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_tres').style.display = 'none';
+      document.getElementById('preguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresA_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cinco').style.display = 'none';
+      document.getElementById('preguntaTresA_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_seis').style.display = 'none';
+
+      //Fase 3B
+      document.getElementById('preguntaTresB_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_uno').style.display = 'none';
+      document.getElementById('preguntaTresB_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_dos').style.display = 'none';
+      document.getElementById('preguntaTresB_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_tres').style.display = 'none';
+      document.getElementById('preguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresB_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cinco').style.display = 'none';
+      document.getElementById('preguntaTresB_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_seis').style.display = '';
+
+      //Fase 3C1
+      document.getElementById('preguntaTresC_uno').style.display = 'none';
+      document.getElementById('preguntaTresC_dos').style.display = 'none';
+      document.getElementById('preguntaTresC_tres').style.display = 'none';
+      document.getElementById('preguntaTresC_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC_seis').style.display = 'none';
+      //Fase 3C2
+      document.getElementById('preguntaTresC2_uno').style.display = 'none';
+      document.getElementById('preguntaTresC2_dos').style.display = 'none';
+      document.getElementById('preguntaTresC2_tres').style.display = 'none';
+      document.getElementById('preguntaTresC2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC2_seis').style.display = 'none';
+
+      //Fase 3D
+      document.getElementById('preguntaTresD_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_uno').style.display = 'none';
+      document.getElementById('preguntaTresD_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_dos').style.display = 'none';
+      document.getElementById('preguntaTresD_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_tres').style.display = 'none';
+      document.getElementById('preguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresD_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cinco').style.display = 'none';
+      document.getElementById('preguntaTresD_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_seis').style.display = 'none';
+
+      //Fase 3E
+      document.getElementById('preguntaTresE_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_uno').style.display = 'none';
+      document.getElementById('preguntaTresE_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_dos').style.display = 'none';
+      document.getElementById('preguntaTresE_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_tres').style.display = 'none';
+      document.getElementById('preguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresE_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cinco').style.display = 'none';
+      document.getElementById('preguntaTresE_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_seis').style.display = 'none';
+
+      //Fase 3F1
+      document.getElementById('preguntaTresF_uno').style.display = 'none';
+      document.getElementById('preguntaTresF_dos').style.display = 'none';
+      document.getElementById('preguntaTresF_tres').style.display = 'none';
+      document.getElementById('preguntaTresF_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF_seis').style.display = 'none';
+      //Fase 3F2
+      document.getElementById('preguntaTresF2_uno').style.display = 'none';
+      document.getElementById('preguntaTresF2_dos').style.display = 'none';
+      document.getElementById('preguntaTresF2_tres').style.display = 'none';
+      document.getElementById('preguntaTresF2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF2_seis').style.display = 'none';
+
+      //Fase 3G1
+      document.getElementById('preguntaTresG_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_uno').style.display = 'none';
+      document.getElementById('preguntaTresG_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_dos').style.display = 'none';
+      document.getElementById('preguntaTresG_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_tres').style.display = 'none';
+      document.getElementById('preguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_seis').style.display = 'none';
+      //Fase 3G2
+      document.getElementById('preguntaTresG2_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_uno').style.display = 'none';
+      document.getElementById('preguntaTresG2_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_dos').style.display = 'none';
+      document.getElementById('preguntaTresG2_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_tres').style.display = 'none';
+      document.getElementById('preguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG2_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_seis').style.display = 'none';
+      //Fase 3G3
+      document.getElementById('preguntaTresG3_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_uno').style.display = 'none';
+      document.getElementById('preguntaTresG3_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_dos').style.display = 'none';
+      document.getElementById('preguntaTresG3_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_tres').style.display = 'none';
+      document.getElementById('preguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG3_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_seis').style.display = 'none';
+      //Fase 3G4
+      document.getElementById('preguntaTresG4_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_uno').style.display = 'none';
+      document.getElementById('preguntaTresG4_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_dos').style.display = 'none';
+      document.getElementById('preguntaTresG4_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_tres').style.display = 'none';
+      document.getElementById('preguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG4_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_seis').style.display = 'none';
+
+      //Fase 3H1
+      document.getElementById('preguntaTresH_uno').style.display = 'none';
+      document.getElementById('preguntaTresH_dos').style.display = 'none';
+      document.getElementById('preguntaTresH_tres').style.display = 'none';
+      document.getElementById('preguntaTresH_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH_seis').style.display = 'none';
+      //Fase 3H2
+      document.getElementById('preguntaTresH2_uno').style.display = 'none';
+      document.getElementById('preguntaTresH2_dos').style.display = 'none';
+      document.getElementById('preguntaTresH2_tres').style.display = 'none';
+      document.getElementById('preguntaTresH2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH2_seis').style.display = 'none';
+      //Fase 3H3
+      document.getElementById('preguntaTresH3_uno').style.display = 'none';
+      document.getElementById('preguntaTresH3_dos').style.display = 'none';
+      document.getElementById('preguntaTresH3_tres').style.display = 'none';
+      document.getElementById('preguntaTresH3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH3_seis').style.display = 'none';
+      //Fase 3H4
+      document.getElementById('preguntaTresH4_uno').style.display = 'none';
+      document.getElementById('preguntaTresH4_dos').style.display = 'none';
+      document.getElementById('preguntaTresH4_tres').style.display = 'none';
+      document.getElementById('preguntaTresH4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH4_seis').style.display = 'none';
+      //Gracias
+      document.getElementById('gracias').style.display = 'none';
+
+      setTimeout(function () { document.getElementById('irPreguntaTresC_uno').click(); }, 3000);
+    }
+
+  });
+
+});
+
+$('.correctD').on('click', function () {
+  var count = parseInt($(this).data('click')) || 0;
+  count = count + 1;
+  $('.correctD').each(function () {
+    $(this).data('click', count);
+
+    console.log(count);
+
+    if (count == 2) {
+      count = 0;
+      //Anuncios
+      document.getElementById('anuncio1').style.display = 'none';
+      document.getElementById('anuncio2').style.display = 'none';
+      document.getElementById('anuncio3').style.display = 'none';
+
+      //Incorrectos
+
+      document.getElementById('incorrectoTresA').style.display = 'none';
+      document.getElementById('incorrectoTresB').style.display = 'none';
+      document.getElementById('incorrectoTresD').style.display = 'none';
+      document.getElementById('incorrectoTresE').style.display = 'none';
+      document.getElementById('incorrectoTresG1').style.display = 'none';
+      document.getElementById('incorrectoTresG2').style.display = 'none';
+      document.getElementById('incorrectoTresG3').style.display = 'none';
+      document.getElementById('incorrectoTresG4').style.display = 'none';
+
+      //Fase 3A
+      document.getElementById('instructivoTres').style.display = 'none';
+      document.getElementById('preguntaTresA_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_uno').style.display = 'none';
+      document.getElementById('preguntaTresA_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_dos').style.display = 'none';
+      document.getElementById('preguntaTresA_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_tres').style.display = 'none';
+      document.getElementById('preguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresA_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cinco').style.display = 'none';
+      document.getElementById('preguntaTresA_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_seis').style.display = 'none';
+
+      //Fase 3B
+      document.getElementById('preguntaTresB_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_uno').style.display = 'none';
+      document.getElementById('preguntaTresB_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_dos').style.display = 'none';
+      document.getElementById('preguntaTresB_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_tres').style.display = 'none';
+      document.getElementById('preguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresB_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cinco').style.display = 'none';
+      document.getElementById('preguntaTresB_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_seis').style.display = 'none';
+
+      //Fase 3C1
+      document.getElementById('preguntaTresC_uno').style.display = 'none';
+      document.getElementById('preguntaTresC_dos').style.display = 'none';
+      document.getElementById('preguntaTresC_tres').style.display = 'none';
+      document.getElementById('preguntaTresC_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC_seis').style.display = 'none';
+      //Fase 3C2
+      document.getElementById('preguntaTresC2_uno').style.display = 'none';
+      document.getElementById('preguntaTresC2_dos').style.display = 'none';
+      document.getElementById('preguntaTresC2_tres').style.display = 'none';
+      document.getElementById('preguntaTresC2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC2_seis').style.display = 'none';
+
+      //Fase 3D
+      document.getElementById('preguntaTresD_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_uno').style.display = 'none';
+      document.getElementById('preguntaTresD_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_dos').style.display = 'none';
+      document.getElementById('preguntaTresD_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_tres').style.display = 'none';
+      document.getElementById('preguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresD_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cinco').style.display = 'none';
+      document.getElementById('preguntaTresD_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_seis').style.display = '';
+
+      //Fase 3E
+      document.getElementById('preguntaTresE_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_uno').style.display = 'none';
+      document.getElementById('preguntaTresE_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_dos').style.display = 'none';
+      document.getElementById('preguntaTresE_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_tres').style.display = 'none';
+      document.getElementById('preguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresE_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cinco').style.display = 'none';
+      document.getElementById('preguntaTresE_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_seis').style.display = 'none';
+
+      //Fase 3F1
+      document.getElementById('preguntaTresF_uno').style.display = 'none';
+      document.getElementById('preguntaTresF_dos').style.display = 'none';
+      document.getElementById('preguntaTresF_tres').style.display = 'none';
+      document.getElementById('preguntaTresF_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF_seis').style.display = 'none';
+      //Fase 3F2
+      document.getElementById('preguntaTresF2_uno').style.display = 'none';
+      document.getElementById('preguntaTresF2_dos').style.display = 'none';
+      document.getElementById('preguntaTresF2_tres').style.display = 'none';
+      document.getElementById('preguntaTresF2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF2_seis').style.display = 'none';
+
+      //Fase 3G1
+      document.getElementById('preguntaTresG_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_uno').style.display = 'none';
+      document.getElementById('preguntaTresG_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_dos').style.display = 'none';
+      document.getElementById('preguntaTresG_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_tres').style.display = 'none';
+      document.getElementById('preguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_seis').style.display = 'none';
+      //Fase 3G2
+      document.getElementById('preguntaTresG2_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_uno').style.display = 'none';
+      document.getElementById('preguntaTresG2_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_dos').style.display = 'none';
+      document.getElementById('preguntaTresG2_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_tres').style.display = 'none';
+      document.getElementById('preguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG2_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_seis').style.display = 'none';
+      //Fase 3G3
+      document.getElementById('preguntaTresG3_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_uno').style.display = 'none';
+      document.getElementById('preguntaTresG3_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_dos').style.display = 'none';
+      document.getElementById('preguntaTresG3_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_tres').style.display = 'none';
+      document.getElementById('preguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG3_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_seis').style.display = 'none';
+      //Fase 3G4
+      document.getElementById('preguntaTresG4_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_uno').style.display = 'none';
+      document.getElementById('preguntaTresG4_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_dos').style.display = 'none';
+      document.getElementById('preguntaTresG4_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_tres').style.display = 'none';
+      document.getElementById('preguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG4_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_seis').style.display = 'none';
+
+      //Fase 3H1
+      document.getElementById('preguntaTresH_uno').style.display = 'none';
+      document.getElementById('preguntaTresH_dos').style.display = 'none';
+      document.getElementById('preguntaTresH_tres').style.display = 'none';
+      document.getElementById('preguntaTresH_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH_seis').style.display = 'none';
+      //Fase 3H2
+      document.getElementById('preguntaTresH2_uno').style.display = 'none';
+      document.getElementById('preguntaTresH2_dos').style.display = 'none';
+      document.getElementById('preguntaTresH2_tres').style.display = 'none';
+      document.getElementById('preguntaTresH2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH2_seis').style.display = 'none';
+      //Fase 3H3
+      document.getElementById('preguntaTresH3_uno').style.display = 'none';
+      document.getElementById('preguntaTresH3_dos').style.display = 'none';
+      document.getElementById('preguntaTresH3_tres').style.display = 'none';
+      document.getElementById('preguntaTresH3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH3_seis').style.display = 'none';
+      //Fase 3H4
+      document.getElementById('preguntaTresH4_uno').style.display = 'none';
+      document.getElementById('preguntaTresH4_dos').style.display = 'none';
+      document.getElementById('preguntaTresH4_tres').style.display = 'none';
+      document.getElementById('preguntaTresH4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH4_seis').style.display = 'none';
+      //Gracias
+      document.getElementById('gracias').style.display = 'none';
+
+      setTimeout(function () { document.getElementById('irPreguntaTresE_uno').click(); }, 3000);
+    }
+
+  });
+
+});
+
+$('.correctE').on('click', function () {
+  var count = parseInt($(this).data('click')) || 0;
+  count = count + 1;
+  $('.correctE').each(function () {
+    $(this).data('click', count);
+
+    console.log(count);
+
+    if (count == 2) {
+      count = 0;
+      //Anuncios
+      document.getElementById('anuncio1').style.display = 'none';
+      document.getElementById('anuncio2').style.display = 'none';
+      document.getElementById('anuncio3').style.display = 'none';
+
+      //Incorrectos
+
+      document.getElementById('incorrectoTresA').style.display = 'none';
+      document.getElementById('incorrectoTresB').style.display = 'none';
+      document.getElementById('incorrectoTresD').style.display = 'none';
+      document.getElementById('incorrectoTresE').style.display = 'none';
+      document.getElementById('incorrectoTresG1').style.display = 'none';
+      document.getElementById('incorrectoTresG2').style.display = 'none';
+      document.getElementById('incorrectoTresG3').style.display = 'none';
+      document.getElementById('incorrectoTresG4').style.display = 'none';
+
+      //Fase 3A
+      document.getElementById('instructivoTres').style.display = 'none';
+      document.getElementById('preguntaTresA_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_uno').style.display = 'none';
+      document.getElementById('preguntaTresA_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_dos').style.display = 'none';
+      document.getElementById('preguntaTresA_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_tres').style.display = 'none';
+      document.getElementById('preguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresA_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_cinco').style.display = 'none';
+      document.getElementById('preguntaTresA_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresA_seis').style.display = 'none';
+
+      //Fase 3B
+      document.getElementById('preguntaTresB_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_uno').style.display = 'none';
+      document.getElementById('preguntaTresB_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_dos').style.display = 'none';
+      document.getElementById('preguntaTresB_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_tres').style.display = 'none';
+      document.getElementById('preguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresB_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_cinco').style.display = 'none';
+      document.getElementById('preguntaTresB_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresB_seis').style.display = 'none';
+
+      //Fase 3C1
+      document.getElementById('preguntaTresC_uno').style.display = 'none';
+      document.getElementById('preguntaTresC_dos').style.display = 'none';
+      document.getElementById('preguntaTresC_tres').style.display = 'none';
+      document.getElementById('preguntaTresC_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC_seis').style.display = 'none';
+      //Fase 3C2
+      document.getElementById('preguntaTresC2_uno').style.display = 'none';
+      document.getElementById('preguntaTresC2_dos').style.display = 'none';
+      document.getElementById('preguntaTresC2_tres').style.display = 'none';
+      document.getElementById('preguntaTresC2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresC2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresC2_seis').style.display = 'none';
+
+      //Fase 3D
+      document.getElementById('preguntaTresD_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_uno').style.display = 'none';
+      document.getElementById('preguntaTresD_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_dos').style.display = 'none';
+      document.getElementById('preguntaTresD_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_tres').style.display = 'none';
+      document.getElementById('preguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresD_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_cinco').style.display = 'none';
+      document.getElementById('preguntaTresD_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresD_seis').style.display = 'none';
+
+      //Fase 3E
+      document.getElementById('preguntaTresE_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_uno').style.display = 'none';
+      document.getElementById('preguntaTresE_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_dos').style.display = 'none';
+      document.getElementById('preguntaTresE_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_tres').style.display = 'none';
+      document.getElementById('preguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresE_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_cinco').style.display = 'none';
+      document.getElementById('preguntaTresE_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresE_seis').style.display = '';
+
+      //Fase 3F1
+      document.getElementById('preguntaTresF_uno').style.display = 'none';
+      document.getElementById('preguntaTresF_dos').style.display = 'none';
+      document.getElementById('preguntaTresF_tres').style.display = 'none';
+      document.getElementById('preguntaTresF_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF_seis').style.display = 'none';
+      //Fase 3F2
+      document.getElementById('preguntaTresF2_uno').style.display = 'none';
+      document.getElementById('preguntaTresF2_dos').style.display = 'none';
+      document.getElementById('preguntaTresF2_tres').style.display = 'none';
+      document.getElementById('preguntaTresF2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresF2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresF2_seis').style.display = 'none';
+
+      //Fase 3G1
+      document.getElementById('preguntaTresG_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_uno').style.display = 'none';
+      document.getElementById('preguntaTresG_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_dos').style.display = 'none';
+      document.getElementById('preguntaTresG_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_tres').style.display = 'none';
+      document.getElementById('preguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG_seis').style.display = 'none';
+      //Fase 3G2
+      document.getElementById('preguntaTresG2_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_uno').style.display = 'none';
+      document.getElementById('preguntaTresG2_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_dos').style.display = 'none';
+      document.getElementById('preguntaTresG2_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_tres').style.display = 'none';
+      document.getElementById('preguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG2_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG2_seis').style.display = 'none';
+      //Fase 3G3
+      document.getElementById('preguntaTresG3_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_uno').style.display = 'none';
+      document.getElementById('preguntaTresG3_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_dos').style.display = 'none';
+      document.getElementById('preguntaTresG3_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_tres').style.display = 'none';
+      document.getElementById('preguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG3_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG3_seis').style.display = 'none';
+      //Fase 3G4
+      document.getElementById('preguntaTresG4_uno').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_uno').style.display = 'none';
+      document.getElementById('preguntaTresG4_dos').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_dos').style.display = 'none';
+      document.getElementById('preguntaTresG4_tres').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_tres').style.display = 'none';
+      document.getElementById('preguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresG4_seis').style.display = 'none';
+      document.getElementById('correctoPreguntaTresG4_seis').style.display = 'none';
+
+      //Fase 3H1
+      document.getElementById('preguntaTresH_uno').style.display = 'none';
+      document.getElementById('preguntaTresH_dos').style.display = 'none';
+      document.getElementById('preguntaTresH_tres').style.display = 'none';
+      document.getElementById('preguntaTresH_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH_seis').style.display = 'none';
+      //Fase 3H2
+      document.getElementById('preguntaTresH2_uno').style.display = 'none';
+      document.getElementById('preguntaTresH2_dos').style.display = 'none';
+      document.getElementById('preguntaTresH2_tres').style.display = 'none';
+      document.getElementById('preguntaTresH2_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH2_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH2_seis').style.display = 'none';
+      //Fase 3H3
+      document.getElementById('preguntaTresH3_uno').style.display = 'none';
+      document.getElementById('preguntaTresH3_dos').style.display = 'none';
+      document.getElementById('preguntaTresH3_tres').style.display = 'none';
+      document.getElementById('preguntaTresH3_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH3_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH3_seis').style.display = 'none';
+      //Fase 3H4
+      document.getElementById('preguntaTresH4_uno').style.display = 'none';
+      document.getElementById('preguntaTresH4_dos').style.display = 'none';
+      document.getElementById('preguntaTresH4_tres').style.display = 'none';
+      document.getElementById('preguntaTresH4_cuatro').style.display = 'none';
+      document.getElementById('preguntaTresH4_cinco').style.display = 'none';
+      document.getElementById('preguntaTresH4_seis').style.display = 'none';
+      //Gracias
+      document.getElementById('gracias').style.display = 'none';
+
+      setTimeout(function () { document.getElementById('irPreguntaTresF_uno').click(); }, 3000);
     }
 
   });
