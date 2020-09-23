@@ -2644,7 +2644,7 @@ $('.incorrectC').on('click', function () {
   $('.incorrectC').each(function () {
     $(this).data('click', count);
 
-    console.log(count);
+    console.log("Incorrecto C " + count);
 
     if (count == 1) {
       count = 0;

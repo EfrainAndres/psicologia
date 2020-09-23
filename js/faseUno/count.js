@@ -10,8 +10,8 @@ $('.incorrectC').on('click', function () {
       count = 0;
       //Fase 1A
       document.getElementById('incorrectoDiv').style.display = 'none';
-      document.getElementById('instructivoUno').style.display = '';
-      document.getElementById('preguntaUno').style.display = 'none';
+      document.getElementById('instructivoUno').style.display = 'none';
+      document.getElementById('preguntaUno').style.display = '';
       document.getElementById('correctoPreguntaUno').style.display = 'none';
       document.getElementById('instructivoDos').style.display = 'none';
       document.getElementById('preguntaDos').style.display = 'none';
