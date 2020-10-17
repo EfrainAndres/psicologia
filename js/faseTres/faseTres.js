@@ -29623,3 +29623,7 @@ function irCorrectoPreguntaTresG4_seis() {
 
   setTimeout(function () { document.getElementById('irGracias').click(); }, 3000);
 }
+
+function goToFase4() {
+  window.location.href = "fase4.html"
+}
