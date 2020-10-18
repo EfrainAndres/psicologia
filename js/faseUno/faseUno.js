@@ -3956,8 +3956,3 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = '';
   }
-
-
-  function goToFase2() {
-    window.location.href = "fase2.html"
-  }

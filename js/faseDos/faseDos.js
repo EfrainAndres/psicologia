@@ -12487,8 +12487,3 @@ function goToInstructivoDosE() {
   //Gracias
   document.getElementById('gracias').style.display = 'none';
 }
-
-
-function goToFase3() {
-  window.location.href = "fase3.html"
-}
