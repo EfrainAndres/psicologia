@@ -182,4 +182,4 @@ document.getElementById('preguntaTresH4_cuatro').style.display = 'none';
 document.getElementById('preguntaTresH4_cinco').style.display = 'none';
 document.getElementById('preguntaTresH4_seis').style.display = 'none';
 //Gracias
-document.getElementById('gracias').style.display = 'none';
+document.getElementById('gracias3').style.display = 'none';
