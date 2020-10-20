@@ -38,6 +38,19 @@ document.getElementById('Fase4_PreguntaTresITres_dos').style.display = 'none';
 document.getElementById('Fase4_PreguntaTresICuatro').style.display = 'none';
 document.getElementById('Fase4_PreguntaTresICuatro_dos').style.display = 'none';
 
+//Fase 3I4 Correctos
+document.getElementById('correctoFase4_preguntaTresI').style.display = 'none';
+document.getElementById('correctoFase4_preguntaTresI_dos').style.display = 'none';
+document.getElementById('correctoFase4_preguntaTresIDos').style.display = 'none';
+document.getElementById('correctoFase4_PreguntaTresIDos_dos').style.display = 'none';
+document.getElementById('correctoFase4_PreguntaTresITres').style.display = 'none';
+document.getElementById('correctoFase4_PreguntaTresITres_dos').style.display = 'none';
+document.getElementById('correctoFase4_PreguntaTresICuatro').style.display = 'none';
+document.getElementById('correctoFase4_PreguntaTresICuatro_dos').style.display = 'none';
+
+//Fase 3I4 Incorrecto
+document.getElementById('incorrectoFase4_PreguntaTresI').style.display = 'none';
+
 //Fase 3J4
 document.getElementById('fase4_PreguntaTresJ').style.display = 'none';
 document.getElementById('fase4_PreguntaTresJ_dos').style.display = 'none';
