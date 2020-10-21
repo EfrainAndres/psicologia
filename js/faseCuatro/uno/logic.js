@@ -7,3 +7,4 @@ document.getElementById('fase4_cinco').style.display = 'none';
 document.getElementById('fase4_seis').style.display = 'none';
 document.getElementById('fase4_siete').style.display = 'none';
 document.getElementById('fase4_ocho').style.display = 'none';
+document.getElementById('gracias').style.display = 'none';

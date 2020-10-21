@@ -3,7 +3,7 @@ document.getElementById('instructivoDosB').style.display = 'none';
 document.getElementById('instructivoDosD').style.display = 'none';
 document.getElementById('instructivoDosE').style.display = 'none';
 document.getElementById('incorrectoDivDosA').style.display = 'none';
-document.getElementById('instructivoUno').style.display = 'none';
+document.getElementById('instructivoUno').style.display = '';
 document.getElementById('faseDosA_uno').style.display = 'none';
 document.getElementById('correctoDosA_uno').style.display = 'none';
 document.getElementById('faseDosA_dos').style.display = 'none';
@@ -83,7 +83,7 @@ document.getElementById('faseDosD_ocho').style.display = 'none';
 document.getElementById('faseDosD_nueve').style.display = 'none';
 document.getElementById('faseDosD_diez').style.display = 'none';
 document.getElementById('faseDosD_once').style.display = 'none';
-document.getElementById('faseDosD_doce').style.display = '';
+document.getElementById('faseDosD_doce').style.display = 'none';
 
 //Fase 2E
 document.getElementById('faseDosE_uno').style.display = 'none';

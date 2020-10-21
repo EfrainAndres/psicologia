@@ -10,7 +10,7 @@ $('.incorrectCount').on('click', function () {
       count = 0;
       //Fase 2A
       document.getElementById('incorrectoDivDosA').style.display = 'none';
-      document.getElementById('instructivoUno').style.display = '';
+      document.getElementById('instructivoUno').style.display = 'none';
       document.getElementById('faseDosA_uno').style.display = 'none';
       document.getElementById('correctoDosA_uno').style.display = 'none';
       document.getElementById('faseDosA_dos').style.display = 'none';
@@ -120,7 +120,7 @@ $('.incorrectCount').on('click', function () {
 
 
       //Gracias
-      document.getElementById('gracias').style.display = 'none';
+      document.getElementById('gracias').style.display = '';
     }
 
   });
