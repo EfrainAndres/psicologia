@@ -301,8 +301,7 @@ a:hover {
     color: #0FA0CE;
 }
 
-.cpruebaDos,
-.ipruebaDos {
+.cpruebaDos, .ipruebaDos, .cprueba4, .iprueba4 {
     font-size: 7rem;
 }
 
