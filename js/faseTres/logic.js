@@ -14,7 +14,7 @@ document.getElementById('incorrectoTresG3').style.display = 'none';
 document.getElementById('incorrectoTresG4').style.display = 'none';
 
 //Fase 3A
-document.getElementById('instructivoTres').style.display = 'none';
+document.getElementById('instructivoTres').style.display = '';
 document.getElementById('preguntaTresA_uno').style.display = 'none';
 document.getElementById('correctoPreguntaTresA_uno').style.display = 'none';
 document.getElementById('preguntaTresA_dos').style.display = 'none';
@@ -101,7 +101,7 @@ document.getElementById('preguntaTresF2_cinco').style.display = 'none';
 document.getElementById('preguntaTresF2_seis').style.display = 'none';
 
 //Fase 3G1
-document.getElementById('preguntaTresG_uno').style.display = '';
+document.getElementById('preguntaTresG_uno').style.display = 'none';
 document.getElementById('correctoPreguntaTresG_uno').style.display = 'none';
 document.getElementById('preguntaTresG_dos').style.display = 'none';
 document.getElementById('correctoPreguntaTresG_dos').style.display = 'none';

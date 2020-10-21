@@ -69,10 +69,10 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('regresarPreguntaUno').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('regresarPreguntaUno').click(); }, 3000);
+}
 
-  function backToFirstQuestion() {
+function backToFirstQuestion() {
     // var cards = $(".a1");
     // for (var i = 0; i < cards.length; i++) {
     //   var target = Math.floor(Math.random() * cards.length - 1) + 1;
@@ -147,9 +147,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function goToIncorectWordB() {
+function goToIncorectWordB() {
     //Fase 1A
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = '';
@@ -219,10 +219,10 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('regresarPreguntaUnoB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('regresarPreguntaUnoB').click(); }, 3000);
+}
 
-  function backToFirstQuestionB() {
+function backToFirstQuestionB() {
     //Fase 1A
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -291,14 +291,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaUno() {
+function irPreguntaUno() {
     var cards = $(".a1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -363,9 +363,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaUno() {
+function irCorrectoPreguntaUno() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -430,10 +430,10 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('irInstructivoPreguntaDos').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irInstructivoPreguntaDos').click(); }, 3000);
+}
 
-  function irInstructivoPreguntaDos() {
+function irInstructivoPreguntaDos() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -497,14 +497,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaDos() {
+function irPreguntaDos() {
     var cards = $(".a2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -569,9 +569,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaDos() {
+function irCorrectoPreguntaDos() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -636,10 +636,10 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('irInstructivoPreguntaTres').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irInstructivoPreguntaTres').click(); }, 3000);
+}
 
-  function irInstructivoPreguntaTres() {
+function irInstructivoPreguntaTres() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -703,14 +703,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaTres() {
+function irPreguntaTres() {
     var cards = $(".a3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -775,9 +775,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaTres() {
+function irCorrectoPreguntaTres() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -842,15 +842,15 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('irPreguntaCuatro').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaCuatro').click(); }, 3000);
+}
 
-  function irPreguntaCuatro() {
+function irPreguntaCuatro() {
     var cards = $(".a4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -915,9 +915,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaCuatro() {
+function irCorrectoPreguntaCuatro() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -981,15 +981,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaCinco').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaCinco').click(); }, 3000);
+}
 
-  function irPreguntaCinco() {
+function irPreguntaCinco() {
     var cards = $(".a5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1054,9 +1054,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaCinco() {
+function irCorrectoPreguntaCinco() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1120,15 +1120,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaSeis').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaSeis').click(); }, 3000);
+}
 
-  function irPreguntaSeis() {
+function irPreguntaSeis() {
     var cards = $(".a6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1193,9 +1193,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaSeis() {
+function irCorrectoPreguntaSeis() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1259,15 +1259,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaUnoB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaUnoB').click(); }, 3000);
+}
 
-  function irPreguntaUnoB() {
+function irPreguntaUnoB() {
     var cards = $(".b1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1332,9 +1332,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaUnoB() {
+function irCorrectoPreguntaUnoB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1398,15 +1398,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaDosB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaDosB').click(); }, 3000);
+}
 
-  function irPreguntaDosB() {
+function irPreguntaDosB() {
     var cards = $(".b2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1471,9 +1471,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaDosB() {
+function irCorrectoPreguntaDosB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1537,15 +1537,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaTresB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaTresB').click(); }, 3000);
+}
 
-  function irPreguntaTresB() {
+function irPreguntaTresB() {
     var cards = $(".b3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1610,9 +1610,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaTresB() {
+function irCorrectoPreguntaTresB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1676,15 +1676,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaCuatroB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaCuatroB').click(); }, 3000);
+}
 
-  function irPreguntaCuatroB() {
+function irPreguntaCuatroB() {
     var cards = $(".b4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1749,9 +1749,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaCuatroB() {
+function irCorrectoPreguntaCuatroB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1815,15 +1815,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaCincoB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaCincoB').click(); }, 3000);
+}
 
-  function irPreguntaCincoB() {
+function irPreguntaCincoB() {
     var cards = $(".b5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -1888,9 +1888,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaCincoB() {
+function irCorrectoPreguntaCincoB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -1954,15 +1954,15 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-    setTimeout(function () { document.getElementById('irPreguntaSeisB').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irPreguntaSeisB').click(); }, 3000);
+}
 
-  function irPreguntaSeisB() {
+function irPreguntaSeisB() {
     var cards = $(".b6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2027,9 +2027,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irCorrectoPreguntaSeisB() {
+function irCorrectoPreguntaSeisB() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -2094,10 +2094,10 @@ function goToIncorectWord() {
     //Gracias
     document.getElementById('gracias').style.display = 'none';
 
-    setTimeout(function () { document.getElementById('irAnuncio').click(); }, 3000);
-  }
+    setTimeout(function() { document.getElementById('irAnuncio').click(); }, 3000);
+}
 
-  function irAnuncio() {
+function irAnuncio() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -2161,14 +2161,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaUnoC() {
+function irPreguntaUnoC() {
     var cards = $(".c1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2233,14 +2233,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaDosC() {
+function irPreguntaDosC() {
     var cards = $(".c2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2305,14 +2305,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaTresC() {
+function irPreguntaTresC() {
     var cards = $(".c3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2377,14 +2377,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCuatroC() {
+function irPreguntaCuatroC() {
     var cards = $(".c4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2449,14 +2449,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCincoC() {
+function irPreguntaCincoC() {
     var cards = $(".c5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2521,14 +2521,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaSeisC() {
+function irPreguntaSeisC() {
     var cards = $(".c6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2593,14 +2593,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaUnoCD() {
+function irPreguntaUnoCD() {
     var cards = $(".cd1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2665,14 +2665,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaDosCD() {
+function irPreguntaDosCD() {
     var cards = $(".cd2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2737,14 +2737,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaTresCD() {
+function irPreguntaTresCD() {
     var cards = $(".cd3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2809,14 +2809,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCuatroCD() {
+function irPreguntaCuatroCD() {
     var cards = $(".cd4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2881,14 +2881,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCincoCD() {
+function irPreguntaCincoCD() {
     var cards = $(".cd5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -2953,14 +2953,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaSeisCD() {
+function irPreguntaSeisCD() {
     var cards = $(".cd6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3025,14 +3025,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaUnoD() {
+function irPreguntaUnoD() {
     var cards = $(".d1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3097,14 +3097,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaDosD() {
+function irPreguntaDosD() {
     var cards = $(".d2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3169,14 +3169,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaTresD() {
+function irPreguntaTresD() {
     var cards = $(".d3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3241,14 +3241,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCuatroD() {
+function irPreguntaCuatroD() {
     var cards = $(".d4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3313,14 +3313,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCincoD() {
+function irPreguntaCincoD() {
     var cards = $(".d5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3385,14 +3385,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaSeisD() {
+function irPreguntaSeisD() {
     var cards = $(".d6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3457,14 +3457,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaUnoDD() {
+function irPreguntaUnoDD() {
     var cards = $(".dd1");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3529,14 +3529,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaDosDD() {
+function irPreguntaDosDD() {
     var cards = $(".dd2");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3601,14 +3601,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaTresDD() {
+function irPreguntaTresDD() {
     var cards = $(".dd3");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3673,14 +3673,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCuatroDD() {
+function irPreguntaCuatroDD() {
     var cards = $(".dd4");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3745,14 +3745,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaCincoDD() {
+function irPreguntaCincoDD() {
     var cards = $(".dd5");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3817,14 +3817,14 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irPreguntaSeisDD() {
+function irPreguntaSeisDD() {
     var cards = $(".dd6");
     for (var i = 0; i < cards.length; i++) {
-      var target = Math.floor(Math.random() * cards.length - 1) + 1;
-      var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
-      cards.eq(target).before(cards.eq(target2));
+        var target = Math.floor(Math.random() * cards.length - 1) + 1;
+        var target2 = Math.floor(Math.random() * cards.length - 1) + 1;
+        cards.eq(target).before(cards.eq(target2));
     }
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
@@ -3889,9 +3889,9 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = '';
     //Gracias
     document.getElementById('gracias').style.display = 'none';
-  }
+}
 
-  function irGracias() {
+function irGracias() {
     document.getElementById('incorrectoDiv').style.display = 'none';
     document.getElementById('incorrectoDivB').style.display = 'none';
     document.getElementById('instructivoUno').style.display = 'none';
@@ -3955,4 +3955,4 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisDD').style.display = 'none';
     //Gracias
     document.getElementById('gracias').style.display = '';
-  }
+}
