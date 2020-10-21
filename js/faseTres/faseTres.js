@@ -1709,7 +1709,7 @@ function irIncorrectoTresG2() {
   //Gracias
   document.getElementById('gracias3').style.display = 'none';
 
-  setTimeout(function () { document.getElementById('regresarPreguntaTresG1').click(); }, 3000);
+  setTimeout(function () { document.getElementById('regresarPreguntaTresG2').click(); }, 3000);
 }
 
 function irIncorrectoTresG3() {
@@ -1900,7 +1900,7 @@ function irIncorrectoTresG3() {
   //Gracias
   document.getElementById('gracias3').style.display = 'none';
 
-  setTimeout(function () { document.getElementById('regresarPreguntaTresG1').click(); }, 3000);
+  setTimeout(function () { document.getElementById('regresarPreguntaTresG3').click(); }, 3000);
 }
 
 function irIncorrectoTresG4() {
@@ -2091,7 +2091,7 @@ function irIncorrectoTresG4() {
   //Gracias
   document.getElementById('gracias3').style.display = 'none';
 
-  setTimeout(function () { document.getElementById('regresarPreguntaTresG1').click(); }, 3000);
+  setTimeout(function () { document.getElementById('regresarPreguntaTresG4').click(); }, 3000);
 }
 
 //Fase 3A
@@ -10232,7 +10232,7 @@ function irPreguntaTresF2_uno() {
   document.getElementById('gracias3').style.display = 'none';
 }
 
-function irPreguntaTres2_dos() {
+function irPreguntaTresF2_dos() {
   //Anuncios
   document.getElementById('anuncio1').style.display = 'none';
   document.getElementById('anuncio2').style.display = 'none';
