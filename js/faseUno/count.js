@@ -40,8 +40,8 @@ $('.incorrectC').on('click', function () {
       document.getElementById('preguntaSeisB').style.display = 'none';
       document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-      //Anuncio
-      document.getElementById('anuncio').style.display = 'none';
+      //hola
+      document.getElementById('hola').style.display = 'none';
 
       //Fase 1C
       document.getElementById('preguntaUnoC').style.display = 'none';
@@ -123,8 +123,8 @@ $('.incorrectGlobal').on('click', function () {
       document.getElementById('preguntaSeisB').style.display = 'none';
       document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-      //Anuncio
-      document.getElementById('anuncio').style.display = 'none';
+      //hola
+      document.getElementById('hola').style.display = 'none';
 
       //Fase 1C
       document.getElementById('preguntaUnoC').style.display = 'none';

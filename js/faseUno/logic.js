@@ -32,7 +32,7 @@ document.getElementById('preguntaSeisB').style.display = 'none';
 document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
 //Anuncio
-document.getElementById('anuncio').style.display = 'none';
+document.getElementById('hola').style.display = 'none';
 
 //Fase 1C
 document.getElementById('preguntaUnoC').style.display = 'none';

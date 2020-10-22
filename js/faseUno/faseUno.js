@@ -32,8 +32,8 @@ function goToIncorectWord() {
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
 
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
@@ -112,8 +112,8 @@ function backToFirstQuestion() {
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
 
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
@@ -183,8 +183,8 @@ function goToIncorectWordB() {
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
 
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
@@ -256,8 +256,8 @@ function backToFirstQuestionB() {
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
 
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
 
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
@@ -330,8 +330,8 @@ function irPreguntaUno() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -396,8 +396,8 @@ function irCorrectoPreguntaUno() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -464,8 +464,8 @@ function irInstructivoPreguntaDos() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -536,8 +536,8 @@ function irPreguntaDos() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -602,8 +602,8 @@ function irCorrectoPreguntaDos() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -670,8 +670,8 @@ function irInstructivoPreguntaTres() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -742,8 +742,8 @@ function irPreguntaTres() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -808,8 +808,8 @@ function irCorrectoPreguntaTres() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -882,8 +882,8 @@ function irPreguntaCuatro() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -948,8 +948,8 @@ function irCorrectoPreguntaCuatro() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1021,8 +1021,8 @@ function irPreguntaCinco() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1087,8 +1087,8 @@ function irCorrectoPreguntaCinco() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1160,8 +1160,8 @@ function irPreguntaSeis() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1226,8 +1226,8 @@ function irCorrectoPreguntaSeis() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1299,8 +1299,8 @@ function irPreguntaUnoB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1365,8 +1365,8 @@ function irCorrectoPreguntaUnoB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1438,8 +1438,8 @@ function irPreguntaDosB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1504,8 +1504,8 @@ function irCorrectoPreguntaDosB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1577,8 +1577,8 @@ function irPreguntaTresB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1643,8 +1643,8 @@ function irCorrectoPreguntaTresB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1716,8 +1716,8 @@ function irPreguntaCuatroB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1782,8 +1782,8 @@ function irCorrectoPreguntaCuatroB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1855,8 +1855,8 @@ function irPreguntaCincoB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1921,8 +1921,8 @@ function irCorrectoPreguntaCincoB() {
     document.getElementById('correctoPreguntaCincoB').style.display = '';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -1994,8 +1994,8 @@ function irPreguntaSeisB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = '';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2060,8 +2060,8 @@ function irCorrectoPreguntaSeisB() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = '';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2128,8 +2128,8 @@ function irAnuncio() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = '';
+    //hola
+    document.getElementById('hola').style.display = '';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2200,8 +2200,8 @@ function irPreguntaUnoC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = '';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2272,8 +2272,8 @@ function irPreguntaDosC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = '';
@@ -2344,8 +2344,8 @@ function irPreguntaTresC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2416,8 +2416,8 @@ function irPreguntaCuatroC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2488,8 +2488,8 @@ function irPreguntaCincoC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2560,8 +2560,8 @@ function irPreguntaSeisC() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2632,8 +2632,8 @@ function irPreguntaUnoCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2704,8 +2704,8 @@ function irPreguntaDosCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2776,8 +2776,8 @@ function irPreguntaTresCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2848,8 +2848,8 @@ function irPreguntaCuatroCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2920,8 +2920,8 @@ function irPreguntaCincoCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -2992,8 +2992,8 @@ function irPreguntaSeisCD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3064,8 +3064,8 @@ function irPreguntaUnoD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3136,8 +3136,8 @@ function irPreguntaDosD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3208,8 +3208,8 @@ function irPreguntaTresD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3280,8 +3280,8 @@ function irPreguntaCuatroD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3352,8 +3352,8 @@ function irPreguntaCincoD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3424,8 +3424,8 @@ function irPreguntaSeisD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3496,8 +3496,8 @@ function irPreguntaUnoDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3568,8 +3568,8 @@ function irPreguntaDosDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3640,8 +3640,8 @@ function irPreguntaTresDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3712,8 +3712,8 @@ function irPreguntaCuatroDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3784,8 +3784,8 @@ function irPreguntaCincoDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3856,8 +3856,8 @@ function irPreguntaSeisDD() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
@@ -3922,8 +3922,8 @@ function irGracias() {
     document.getElementById('correctoPreguntaCincoB').style.display = 'none';
     document.getElementById('preguntaSeisB').style.display = 'none';
     document.getElementById('correctoPreguntaSeisB').style.display = 'none';
-    //Anuncio
-    document.getElementById('anuncio').style.display = 'none';
+    //hola
+    document.getElementById('hola').style.display = 'none';
     //Fase 1C
     document.getElementById('preguntaUnoC').style.display = 'none';
     document.getElementById('preguntaDosC').style.display = 'none';
