@@ -199,7 +199,10 @@ $('.incorrectGlobal3').on('click', function () {
 
 });
 
-//Corrects
+//Correct/Incorrect 
+$('.incorrectA').click(function() {
+  $('.correctA').data('click', 0);
+});
 
 $('.correctA').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
@@ -403,6 +406,11 @@ $('.correctA').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectB').click(function() {
+  $('.correctB').data('click', 0);
 });
 
 $('.correctB').on('click', function () {
@@ -609,6 +617,11 @@ $('.correctB').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectC').click(function() {
+  $('.correctC').data('click', 0);
+});
+
 $('.correctC').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -811,6 +824,11 @@ $('.correctC').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectC2').click(function() {
+  $('.correctC2').data('click', 0);
+});
+
 $('.correctC2').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -1011,6 +1029,11 @@ $('.correctC2').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectD').click(function() {
+  $('.correctD').data('click', 0);
 });
 
 $('.correctD').on('click', function () {
@@ -1217,6 +1240,11 @@ $('.correctD').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectE').click(function() {
+  $('.correctE').data('click', 0);
+});
+
 $('.correctE').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -1421,6 +1449,11 @@ $('.correctE').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectF').click(function() {
+  $('.correctF').data('click', 0);
+});
+
 $('.correctF').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -1623,6 +1656,11 @@ $('.correctF').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectF2').click(function() {
+  $('.correctF2').data('click', 0);
+});
+
 $('.correctF2').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -1823,6 +1861,11 @@ $('.correctF2').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectG').click(function() {
+  $('.correctG').data('click', 0);
 });
 
 $('.correctG').on('click', function () {
@@ -2029,6 +2072,11 @@ $('.correctG').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectG2').click(function() {
+  $('.correctG2').data('click', 0);
+});
+
 $('.correctG2').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -2231,6 +2279,11 @@ $('.correctG2').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectG3').click(function() {
+  $('.correctG3').data('click', 0);
 });
 
 $('.correctG3').on('click', function () {
@@ -2437,6 +2490,11 @@ $('.correctG3').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectG4').click(function() {
+  $('.correctG4').data('click', 0);
+});
+
 $('.correctG4').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -2641,6 +2699,11 @@ $('.correctG4').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectH1').click(function() {
+  $('.correctH1').data('click', 0);
+});
+
 $('.correctH1').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -2841,6 +2904,11 @@ $('.correctH1').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectH2').click(function() {
+  $('.correctH2').data('click', 0);
 });
 
 $('.correctH2').on('click', function () {
@@ -3045,6 +3113,11 @@ $('.correctH2').on('click', function () {
 
 });
 
+//Correct/Incorrect 
+$('.incorrectH3').click(function() {
+  $('.correctH3').data('click', 0);
+});
+
 $('.correctH3').on('click', function () {
   var count = parseInt($(this).data('click')) || 0;
   count = count + 1;
@@ -3245,6 +3318,11 @@ $('.correctH3').on('click', function () {
 
   });
 
+});
+
+//Correct/Incorrect 
+$('.incorrectH4').click(function() {
+  $('.correctH4').data('click', 0);
 });
 
 $('.correctH4').on('click', function () {
