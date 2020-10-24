@@ -24,6 +24,7 @@ function Fase4_faseDosE_uno() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_dos() {
@@ -52,6 +53,7 @@ function goToFase4_FaseDosE_dos() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_tres() {
@@ -80,6 +82,7 @@ function goToFase4_FaseDosE_tres() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_cuatro() {
@@ -108,6 +111,7 @@ function goToFase4_FaseDosE_cuatro() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_cinco() {
@@ -136,6 +140,7 @@ function goToFase4_FaseDosE_cinco() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_seis() {
@@ -164,6 +169,7 @@ function goToFase4_FaseDosE_seis() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_siete() {
@@ -192,6 +198,7 @@ function goToFase4_FaseDosE_siete() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_ocho() {
@@ -220,6 +227,7 @@ function goToFase4_FaseDosE_ocho() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_nueve() {
@@ -248,6 +256,7 @@ function goToFase4_FaseDosE_nueve() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_diez() {
@@ -276,6 +285,7 @@ function goToFase4_FaseDosE_diez() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_once() {
@@ -304,6 +314,7 @@ function goToFase4_FaseDosE_once() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_doce() {
@@ -332,6 +343,7 @@ function goToFase4_FaseDosE_doce() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_trece() {
@@ -360,6 +372,7 @@ function goToFase4_FaseDosE_trece() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_catorce() {
@@ -388,6 +401,7 @@ function goToFase4_FaseDosE_catorce() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_quince() {
@@ -416,6 +430,7 @@ function goToFase4_FaseDosE_quince() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_dieciseis() {
@@ -444,6 +459,7 @@ function goToFase4_FaseDosE_dieciseis() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_diecisiete() {
@@ -472,6 +488,7 @@ function goToFase4_FaseDosE_diecisiete() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_dieciocho() {
@@ -500,6 +517,7 @@ function goToFase4_FaseDosE_dieciocho() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_diecinueve() {
@@ -528,6 +546,7 @@ function goToFase4_FaseDosE_diecinueve() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_veinte() {
@@ -556,6 +575,7 @@ function goToFase4_FaseDosE_veinte() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_veintiuno() {
@@ -584,6 +604,7 @@ function goToFase4_FaseDosE_veintiuno() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_veintidos() {
@@ -612,6 +633,7 @@ function goToFase4_FaseDosE_veintidos() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = '';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_veintitres() {
@@ -640,6 +662,7 @@ function goToFase4_FaseDosE_veintitres() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = '';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_FaseDosE_veinticuatro() {
@@ -668,6 +691,7 @@ function goToFase4_FaseDosE_veinticuatro() {
     document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
     document.getElementById('Fase4_faseDosE_veinticuatro').style.display = '';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4_3(){

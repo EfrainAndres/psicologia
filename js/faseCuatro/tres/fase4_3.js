@@ -62,6 +62,7 @@ function goToH1_1() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH1_2() {
@@ -127,6 +128,7 @@ function goToH1_2() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH1_3() {
@@ -192,6 +194,7 @@ function goToH1_3() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH1_4() {
@@ -257,6 +260,7 @@ function goToH1_4() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH1_5() {
@@ -322,6 +326,7 @@ function goToH1_5() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH1_6() {
@@ -387,6 +392,7 @@ function goToH1_6() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_1() {
@@ -452,6 +458,7 @@ function goToH2_1() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_2() {
@@ -517,6 +524,7 @@ function goToH2_2() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_3() {
@@ -582,6 +590,7 @@ function goToH2_3() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_4() {
@@ -647,6 +656,7 @@ function goToH2_4() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_5() {
@@ -712,6 +722,7 @@ function goToH2_5() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH2_6() {
@@ -777,6 +788,7 @@ function goToH2_6() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_1() {
@@ -842,6 +854,7 @@ function goToH3_1() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_2() {
@@ -907,6 +920,7 @@ function goToH3_2() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_3() {
@@ -972,6 +986,7 @@ function goToH3_3() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_4() {
@@ -1037,6 +1052,7 @@ function goToH3_4() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_5() {
@@ -1102,6 +1118,7 @@ function goToH3_5() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH3_6() {
@@ -1167,6 +1184,7 @@ function goToH3_6() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_1() {
@@ -1232,6 +1250,7 @@ function goToH4_1() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_2() {
@@ -1297,6 +1316,7 @@ function goToH4_2() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_3() {
@@ -1362,6 +1382,7 @@ function goToH4_3() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_4() {
@@ -1427,6 +1448,7 @@ function goToH4_4() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_5() {
@@ -1492,6 +1514,7 @@ function goToH4_5() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToH4_6() {
@@ -1557,10 +1580,11 @@ function goToH4_6() {
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 //I
-function goToI1_1(){
+function goToI1_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1623,9 +1647,10 @@ function goToI1_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI1_2(){
+function goToI1_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1688,9 +1713,10 @@ function goToI1_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI2_1(){
+function goToI2_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1753,9 +1779,10 @@ function goToI2_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI2_2(){
+function goToI2_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1818,9 +1845,10 @@ function goToI2_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI3_1(){
+function goToI3_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1883,9 +1911,10 @@ function goToI3_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI3_2(){
+function goToI3_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -1948,9 +1977,10 @@ function goToI3_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI4_1(){
+function goToI4_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2013,9 +2043,10 @@ function goToI4_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToI4_2(){
+function goToI4_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2078,10 +2109,11 @@ function goToI4_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 //I Correct
-function goToCorrectI1_1(){
+function goToCorrectI1_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2144,11 +2176,12 @@ function goToCorrectI1_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI1_2').click(); }, 3000);
 }
 
-function goToCorrectI1_2(){
+function goToCorrectI1_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2211,11 +2244,12 @@ function goToCorrectI1_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
-    
+    document.getElementById('gracias').style.display = 'none';
+
     setTimeout(function () { document.getElementById('goToI2_1').click(); }, 3000);
 }
 
-function goToCorrectI2_1(){
+function goToCorrectI2_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2278,11 +2312,12 @@ function goToCorrectI2_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI2_2').click(); }, 3000);
 }
 
-function goToCorrectI2_2(){
+function goToCorrectI2_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2345,11 +2380,12 @@ function goToCorrectI2_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI3_1').click(); }, 3000);
 }
 
-function goToCorrectI3_1(){
+function goToCorrectI3_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2412,11 +2448,12 @@ function goToCorrectI3_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI3_2').click(); }, 3000);
 }
 
-function goToCorrectI3_2(){
+function goToCorrectI3_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2479,11 +2516,12 @@ function goToCorrectI3_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI4_1').click(); }, 3000);
 }
 
-function goToCorrectI4_1(){
+function goToCorrectI4_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2546,11 +2584,12 @@ function goToCorrectI4_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToI4_2').click(); }, 3000);
 }
 
-function goToCorrectI4_2(){
+function goToCorrectI4_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2613,12 +2652,13 @@ function goToCorrectI4_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 
     setTimeout(function () { document.getElementById('goToJ1_1').click(); }, 3000);
 }
 
 //I Incorrect
-function goToIncorrectI(){
+function goToIncorrectI() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2681,12 +2721,13 @@ function goToIncorrectI(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
-    
+    document.getElementById('gracias').style.display = 'none';
+
     setTimeout(function () { document.getElementById('goToI1_1').click(); }, 3000);
 }
 
 //J
-function goToJ1_1(){
+function goToJ1_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2749,9 +2790,10 @@ function goToJ1_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ1_2(){
+function goToJ1_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2814,9 +2856,10 @@ function goToJ1_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ2_1(){
+function goToJ2_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2879,9 +2922,10 @@ function goToJ2_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ2_2(){
+function goToJ2_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -2944,9 +2988,10 @@ function goToJ2_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ3_1(){
+function goToJ3_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -3009,9 +3054,10 @@ function goToJ3_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ3_2(){
+function goToJ3_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -3074,9 +3120,10 @@ function goToJ3_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = '';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ4_1(){
+function goToJ4_1() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -3139,9 +3186,10 @@ function goToJ4_1(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = '';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+    document.getElementById('gracias').style.display = 'none';
 }
 
-function goToJ4_2(){
+function goToJ4_2() {
     document.getElementById('instructivoCuatro_Tres').style.display = 'none';
     //Fase 3H1
     document.getElementById('Fase4_preguntaTresH_uno').style.display = 'none';
@@ -3204,8 +3252,9 @@ function goToJ4_2(){
     document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
     document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = '';
+    document.getElementById('gracias').style.display = 'none';
 }
 
 function goToFase4() {
-  window.location.href = "fase4.html"
+    window.location.href = "fase4.html"
 }

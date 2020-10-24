@@ -24,3 +24,4 @@ document.getElementById('Fase4_faseDosE_veintiuno').style.display = 'none';
 document.getElementById('Fase4_faseDosE_veintidos').style.display = 'none';
 document.getElementById('Fase4_faseDosE_veintitres').style.display = 'none';
 document.getElementById('Fase4_faseDosE_veinticuatro').style.display = 'none';
+document.getElementById('gracias').style.display = 'none';

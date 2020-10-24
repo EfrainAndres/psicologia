@@ -60,3 +60,5 @@ document.getElementById('fase4_PreguntaTresJTres').style.display = 'none';
 document.getElementById('fase4_PreguntaTresJTres_dos').style.display = 'none';
 document.getElementById('fase4_PreguntaTresJCuatro').style.display = 'none';
 document.getElementById('fase4_PreguntaTresJCuatro_dos').style.display = 'none';
+
+document.getElementById('gracias').style.display = 'none';
