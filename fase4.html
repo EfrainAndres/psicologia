@@ -30,6 +30,20 @@
     <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
+
+        <div class="row" id="instructivoUno">
+            <div class="twelve column" style="margin-top: 11%;">
+                <h3>Instrucciones (4.0)</h3>
+                <p>El formato de la tarea cambiará. Ahora, dos rectángulos aparecerán de forma simultánea en la parte
+                    superior y en el centro de la pantalla. Su meta es decir si estos se encuentran relacionados o no.
+                    Tendrá que usar la tecla “Z” para la respuesta “Sí” y la letra “M” para la respuesta “NO”. Las
+                    opciones de respuesta serán siempre “SÍ” y “NO”. El computador le irá indicando si lo está haciendo
+                    bien o no.
+                </p>
+                <br>
+                <p style="text-align: center;"><a class="button" onclick="irPreguntaCuatro_Uno()">Empezar</a></p>
+            </div>
+        </div>
         <!-- 
       Fase 4 pregunta 1
     -->
@@ -193,7 +207,7 @@
                         <a href="#" id="incorrect8" alt="si" class="incorrect iprueba4 incorrect4_1">Sí</a>
                     </div>
                     <div class="six columns text-right">
-                        <a onclick="irGracias()" id="correct8" alt="no" class="correct cprueba4">No</a>
+                        <a onclick="goToFase5()" id="correct8" alt="no" class="correct cprueba4">No</a>
                     </div>
                 </div>
             </div>

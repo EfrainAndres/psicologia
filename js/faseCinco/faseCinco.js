@@ -28593,7 +28593,7 @@ function irCorrectoPreguntaCincoG4_seis() {
   //Gracias
   document.getElementById('gracias3').style.display = 'none';
 
-  setTimeout(function () { document.getElementById('irGracias').click(); }, 3000);
+  setTimeout(function () { document.getElementById('gracias3').click(); }, 3000);
 }
 
 function goToFase4() {
