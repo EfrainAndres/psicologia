@@ -363,7 +363,7 @@ function backToFirstQuestionDosC() {
   document.getElementById('instructivoDosD').style.display = 'none';
   document.getElementById('instructivoDosE').style.display = 'none';
   document.getElementById('incorrectoDivDosA').style.display = 'none';
-  document.getElementById('instructivoUno').style.display = '';
+  document.getElementById('instructivoUno').style.display = 'none';
   document.getElementById('faseDosA_uno').style.display = 'none';
   document.getElementById('correctoDosA_uno').style.display = 'none';
   document.getElementById('faseDosA_dos').style.display = 'none';
@@ -405,7 +405,7 @@ function backToFirstQuestionDosC() {
 
   //Fase 2C
   document.getElementById('incorrectoDivDosC').style.display = 'none';
-  document.getElementById('instructivoDosC').style.display = 'none';
+  document.getElementById('instructivoDosC').style.display = '';
   document.getElementById('faseDosC_uno').style.display = 'none';
   document.getElementById('correctoDosC_uno').style.display = 'none';
   document.getElementById('faseDosC_dos').style.display = 'none';
